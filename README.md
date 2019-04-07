@@ -1,5 +1,6 @@
 # Piquant
 Piquant-Quantitative Toolbox(CTP)
+![image](https://github.com/QuantPengPeng/Piquant/blob/master/Piquant_image.png)
 分层架构，基于多线程间异步通讯建立事件驱动的本地消息机制  
 实现时间轮询、被动连询、主动查询的任务优先级调度  
 基于c++11线程安全队列建立数据中心，并通过线程监听及MFC的Doc-View结构分发行情数据  
