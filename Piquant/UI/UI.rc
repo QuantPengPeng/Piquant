@@ -1,0 +1,1347 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+#include "verrsrc.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (Simplified, PRC) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "#include ""verrsrc.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#include ""res\\UI.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#if !defined(_AFXDLL)\r\n"
+    "#include ""l.CHS\\afxprint.rc""        // 打印/打印预览资源\r\n"
+    "#include ""l.CHS\\afxribbon.rc""        // MFC 功能区和控件条资源\r\n"
+    "#endif\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\ui.ico"
+IDR_MultiTraderTYPE     ICON                    "res\\ui.ico"
+IDI_FILE_VIEW           ICON                    "res\\file_view.ico"
+IDI_FILE_VIEW_HC        ICON                    "res\\file_view_hc.ico"
+IDI_CLASS_VIEW          ICON                    "res\\class_view.ico"
+IDI_CLASS_VIEW_HC       ICON                    "res\\class_view_hc.ico"
+IDI_OUTPUT_WND          ICON                    "res\\output_wnd.ico"
+IDI_OUTPUT_WND_HC       ICON                    "res\\output_wnd_hc.ico"
+IDI_PROPERTIES_WND      ICON                    "res\\properties_wnd.ico"
+IDI_PROPERTIES_WND_HC   ICON                    "res\\properties_wnd_hc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+IDR_MAINFRAME_256       BITMAP                  "res\\Toolbar256.bmp"
+IDR_SORT                BITMAP                  "res\\sort.bmp"
+IDB_SORT_24             BITMAP                  "res\\sort_hc.bmp"
+IDB_FILE_VIEW           BITMAP                  "res\\fileview.bmp"
+IDB_FILE_VIEW_24        BITMAP                  "res\\fileview_hc.bmp"
+IDB_CLASS_VIEW          BITMAP                  "res\\classview.bmp"
+IDB_CLASS_VIEW_24       BITMAP                  "res\\classview_hc.bmp"
+IDR_EXPLORER            BITMAP                  "res\\explorer.bmp"
+IDB_EXPLORER_24         BITMAP                  "res\\explorer_hc.bmp"
+IDR_MENU_IMAGES         BITMAP                  "res\\menuimages.bmp"
+IDB_MENU_IMAGES_24      BITMAP                  "res\\menuimages_hc.bmp"
+IDR_PROPERTIES          BITMAP                  "res\\properties.bmp"
+IDB_PROPERTIES_HC       BITMAP                  "res\\properties_hc.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_MAINFRAME_256 TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_SORT TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_SORT_MENU
+    BUTTON      ID_NEW_FOLDER
+END
+
+IDR_EXPLORER TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_PROPERTIES
+END
+
+IDR_MENU_IMAGES TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_WINDOW_MANAGER
+    SEPARATOR
+    BUTTON      ID_WINDOW_CASCADE
+    BUTTON      ID_WINDOW_TILE_HORZ
+    BUTTON      ID_TOOLS_MACRO
+    BUTTON      ID_SORTING_SORTALPHABETIC
+    BUTTON      ID_SORTING_SORTBYTYPE
+    BUTTON      ID_SORTING_SORTBYACCESS
+    BUTTON      ID_SORTING_GROUPBYTYPE
+END
+
+IDR_PROPERTIES TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_EXPAND_ALL
+    BUTTON      ID_SORTPROPERTIES
+    BUTTON      ID_PROPERTIES1
+    BUTTON      ID_PROPERTIES2
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "新建(&N)\tCtrl+N",              ID_FILE_NEW
+        MENUITEM "打开(&O)...\tCtrl+O",           ID_FILE_OPEN
+        MENUITEM "关闭(&C)",                      ID_FILE_CLOSE
+        MENUITEM SEPARATOR
+        MENUITEM "最近的文件",                       ID_FILE_MRU_FILE1
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)",                      ID_APP_EXIT
+    END
+    POPUP "视图(&V)"
+    BEGIN
+        POPUP "工具栏和停靠窗口(&T)"
+        BEGIN
+            MENUITEM "<占位符>",                       ID_VIEW_TOOLBAR
+        END
+        MENUITEM "状态栏(&S)",                     ID_VIEW_STATUS_BAR
+        POPUP "应用程序外观(&A)"
+        BEGIN
+            MENUITEM "Windows 2000(&2)",            ID_VIEW_APPLOOK_WIN_2000
+            MENUITEM "Office XP(&X)",               ID_VIEW_APPLOOK_OFF_XP
+            MENUITEM "Windows XP(&W)",              ID_VIEW_APPLOOK_WIN_XP
+            MENUITEM "Office 2003(&3)",             ID_VIEW_APPLOOK_OFF_2003
+            MENUITEM "Visual Studio 200&5",         ID_VIEW_APPLOOK_VS_2005
+            MENUITEM "Visual Studio 200&8",         ID_VIEW_APPLOOK_VS_2008
+            POPUP "Office 2007(&7)"
+            BEGIN
+                MENUITEM "蓝色样式(&B)",                    ID_VIEW_APPLOOK_OFF_2007_BLUE
+                MENUITEM "黑色样式(&L)",                    ID_VIEW_APPLOOK_OFF_2007_BLACK
+                MENUITEM "银色样式(&S)",                    ID_VIEW_APPLOOK_OFF_2007_SILVER
+                MENUITEM "水绿色样式(&A)",                   ID_VIEW_APPLOOK_OFF_2007_AQUA
+            END
+        END
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于 Piquant(&A)...",           ID_APP_ABOUT
+    END
+END
+
+IDR_MultiTraderTYPE MENU
+BEGIN
+    POPUP "登录"
+    BEGIN
+        MENUITEM "登录",                          MENU_SYSTEM_LOGIN
+        MENUITEM "登出",                          MENU_SYSTEM_LOGINOUT
+    END
+    POPUP "功能"
+    BEGIN
+        MENUITEM "查手续费率",                       ID_QRYCOMMISSIONRATE
+        MENUITEM "查保证金率",                       ID_QryInstrumentMarginRate
+        MENUITEM "查汇率",                         ID_QRYEXCHANGERATE
+        MENUITEM "查报撤单手续费",                     ID_QRYORDERCOMMRATE
+    END
+    POPUP "合约"
+    BEGIN
+        MENUITEM "查主力合约",                       ID_QRYMAINCONTRACT
+    END
+    POPUP "链接"
+    BEGIN
+        MENUITEM "期货交易所",                       ID_LINKEXCHANGE
+    END
+    POPUP "外观"
+    BEGIN
+        POPUP "应用程序外观(&A)"
+        BEGIN
+            MENUITEM "Windows 2000(&2)",            ID_VIEW_APPLOOK_WIN_2000
+            MENUITEM "Office XP(&X)",               ID_VIEW_APPLOOK_OFF_XP
+            MENUITEM "Windows XP(&W)",              ID_VIEW_APPLOOK_WIN_XP
+            MENUITEM "Office 2003(&3)",             ID_VIEW_APPLOOK_OFF_2003
+            MENUITEM "Visual Studio 200&5",         ID_VIEW_APPLOOK_VS_2005
+            MENUITEM "Visual Studio 200&8",         ID_VIEW_APPLOOK_VS_2008
+            POPUP "Office 2007(&7)"
+            BEGIN
+                MENUITEM "蓝色样式(&B)",                    ID_VIEW_APPLOOK_OFF_2007_BLUE
+                MENUITEM "黑色样式(&L)",                    ID_VIEW_APPLOOK_OFF_2007_BLACK
+                MENUITEM "银色样式(&S)",                    ID_VIEW_APPLOOK_OFF_2007_SILVER
+                MENUITEM "水绿色样式(&A)",                   ID_VIEW_APPLOOK_OFF_2007_AQUA
+            END
+        END
+    END
+    POPUP "关于"
+    BEGIN
+        MENUITEM "关于 Piquant(&A)...",           ID_APP_ABOUT
+    END
+END
+
+IDR_POPUP_EDIT MENU
+BEGIN
+    POPUP "编辑"
+    BEGIN
+        MENUITEM "剪切(&T)\tCtrl+X",              ID_EDIT_CUT
+        MENUITEM "复制(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "粘贴(&P)\tCtrl+V",              ID_EDIT_PASTE
+    END
+END
+
+IDR_POPUP_SORT MENU
+BEGIN
+    POPUP "排序"
+    BEGIN
+        MENUITEM "按字母顺序排序(&S)",                 ID_SORTING_SORTALPHABETIC
+        MENUITEM "按类型排序(&T)",                   ID_SORTING_SORTBYTYPE
+        MENUITEM "按访问排序(&E)",                   ID_SORTING_SORTBYACCESS
+        MENUITEM "按类型分组(&Y)",                   ID_SORTING_GROUPBYTYPE
+    END
+END
+
+IDR_POPUP_EXPLORER MENU
+BEGIN
+    POPUP "资源管理器"
+    BEGIN
+        MENUITEM "执行策略",                        ID_DUMMY_COMPILE
+        MENUITEM "停止策略",                        ID_STOPSTRATEGY
+        MENUITEM "刷新",                          ID_REFRESH
+        MENUITEM "打开",                          ID_OPENFILE
+    END
+END
+
+IDR_OUTPUT_POPUP MENU
+BEGIN
+    POPUP "弹出项"
+    BEGIN
+        MENUITEM "复制(&C)",                      ID_EDIT_COPY
+        MENUITEM "清除(&C)",                      ID_EDIT_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "隐藏(&H)",                      ID_VIEW_OUTPUTWND
+    END
+END
+
+IDR_HELP_MENU MENU
+BEGIN
+    MENUITEM "关于 Piquant(&A)...",           ID_APP_ABOUT
+END
+
+IDR_THEME_MENU MENU
+BEGIN
+    MENUITEM "Office 2007 (蓝色样式)(&B)",      ID_VIEW_APPLOOK_OFF_2007_BLUE
+    MENUITEM "Office 2007 (黑色样式)(&L)",      ID_VIEW_APPLOOK_OFF_2007_BLACK
+    MENUITEM "Office 2007 (银色样式)(&S)",      ID_VIEW_APPLOOK_OFF_2007_SILVER
+    MENUITEM "Office 2007 (水绿色样式)(&A)",     ID_VIEW_APPLOOK_OFF_2007_AQUA
+    MENUITEM "Windows 7(&D)",               ID_VIEW_APPLOOK_WINDOWS_7
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 Piquant"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "Piquant，1.0 版",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Author: QuantPengPeng",IDC_STATIC,42,26,114,8
+END
+
+IDD_MULTITRADER_FORM DIALOGEX 0, 0, 320, 200
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+END
+
+DIALOG_LOGIN DIALOGEX 0, 0, 402, 128
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "用户登录"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         ID_VIEW_CLASSVIEW,IDC_STATIC,"Static",SS_BITMAP,0,0,407,133
+    LTEXT           "服务器",IDC_STATIC,26,12,22,8
+    LTEXT           "用户代码",IDC_STATIC,26,31,28,8
+    LTEXT           "密码",IDC_STATIC,26,51,15,8
+    LTEXT           "登录进度",IDC_STATIC,26,88,38,8
+    LTEXT           "未登录",IDC_STATIC,253,69,42,8
+    EDITTEXT        IDC_EDIT1,60,25,52,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,60,45,52,14,ES_PASSWORD | ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO1,60,8,87,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "退出",IDC_BUTTON1,152,45,50,14
+    PUSHBUTTON      "登录",IDC_BUTTON2,152,25,50,14
+    CONTROL         "",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,60,82,232,14
+    CONTROL         "记住账户",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,60,67,52,10
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,0,407,133
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME,0,0,407,133
+END
+
+FORMVIEW_STANDARD_MAKEORDER_BOARD DIALOGEX 0, 0, 217, 427
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    EDITTEXT        EDIT_VOLUME,90,69,90,15,ES_AUTOHSCROLL
+    CONTROL         "",SPIN_VOLUME,"msctls_updown32",UDS_WRAP | UDS_SETBUDDYINT | UDS_ARROWKEYS,180,69,11,15
+    CONTROL         "买入",RADIO_BUY,"Button",BS_AUTORADIOBUTTON | WS_GROUP,25,55,29,8
+    CONTROL         "卖出",RADIO_SELL,"Button",BS_AUTORADIOBUTTON,58,55,27,8
+    CONTROL         "开仓",RADIO_OPEN,"Button",BS_AUTORADIOBUTTON | WS_GROUP,93,55,30,8
+    CONTROL         "平仓",RADIO_CLOSE,"Button",BS_AUTORADIOBUTTON,125,55,30,8
+    CONTROL         "平今",RADIO_CLOSETODAY,"Button",BS_AUTORADIOBUTTON,156,55,30,8
+    PUSHBUTTON      "下单",BUTTON_ORDER_INSERT,7,245,112,24,0,WS_EX_DLGMODALFRAME
+    COMBOBOX        COMBO_INSTRUMENTS,60,11,90,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP,WS_EX_CLIENTEDGE
+    CTEXT           "合约",STATIC_INSTRUMENT,7,13,46,10
+    EDITTEXT        EDIT_STOPPRICE,88,149,90,16,ES_AUTOHSCROLL
+    CONTROL         "",SPIN_PRICE,"msctls_updown32",UDS_WRAP | UDS_SETBUDDYINT | UDS_ARROWKEYS,178,104,11,17
+    PUSHBUTTON      "限价",BUTTON_PRICETYPE,25,91,65,30,BS_FLAT,WS_EX_DLGMODALFRAME
+    CTEXT           "交易量(共用)",IDC_STATIC,32,73,57,11
+    PUSHBUTTON      "重置",BUTTON_RETSET,119,245,82,24,0,WS_EX_DLGMODALFRAME
+    LTEXT           "交易所(弃用)",STATIC_EXCHANGE,7,30,46,10
+    COMBOBOX        COMBO_EXCHANGE,60,28,90,30,CBS_DROPDOWN | CBS_SORT | WS_DISABLED | WS_VSCROLL | WS_TABSTOP,WS_EX_CLIENTEDGE
+    COMBOBOX        COMBO_TOUCHPRICETYPE,88,133,90,12,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "触价交易",CHECK_TOUCHPRICETYPE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,32,135,47,10
+    EDITTEXT        EDIT_PRICE,90,104,88,17,ES_AUTOHSCROLL
+    CTEXT           "触发价格",STATIC_TOUCHPRICE,25,152,58,13
+    GROUPBOX        "方向",STATIC_DIRECTION,14,45,73,20,BS_LEFT
+    GROUPBOX        "开平",STATIC_TRADETYPE,90,45,111,20,BS_RIGHT
+    GROUPBOX        "条件单(仅开仓)",STATIC_CONDITIONORDER,19,121,171,121
+    EDITTEXT        EDIT_TRADEPRICE,90,185,88,16,ES_AUTOHSCROLL
+    CTEXT           "有效期(弃用)",STATIC_TRADEPRICE2,32,208,50,9
+    CONTROL         "",DATETIMEPICKER_GTD,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,60,219,118,15
+    COMBOBOX        COMBO_TimeCondition,88,205,90,30,CBS_DROPDOWN | CBS_SORT | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "限价",BUTTON_TOUCHPRICE_PRICETYPE,25,173,65,28,0,WS_EX_DLGMODALFRAME
+    COMBOBOX        COMBO_PRICETYPE_NORMAL,90,91,88,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "委托",RADIO_COMMISSION,"Button",BS_AUTORADIOBUTTON | WS_GROUP,162,13,32,10
+    CONTROL         "预埋",RADIO_ADVANCE,"Button",BS_AUTORADIOBUTTON,162,30,32,10
+    CONTROL         "",SPIN_TOUCHPRICE,"msctls_updown32",UDS_WRAP | UDS_SETBUDDYINT | UDS_ARROWKEYS,178,148,11,17
+    COMBOBOX        COMBO_PRICETYPE,90,173,88,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",SPIN_PRICE_TOUCH,"msctls_updown32",UDS_WRAP | UDS_SETBUDDYINT | UDS_ARROWKEYS,178,185,11,17
+    GROUPBOX        "",STATIC_GROUPBOX,7,278,194,138
+    GROUPBOX        "-----------------------------------------------------------------------",STATIC_PRICEDETAIL_SUBBOX1,7,277,194,24,BS_CENTER
+    GROUPBOX        "-----------------------------------------------------------------------",STATIC_PRICEDETAIL_SUBBOX2,7,297,194,28,BS_CENTER
+    GROUPBOX        "-----------------------------------------------------------------------",STATIC_PRICEDETAIL_SUBBOX3,7,321,194,94,BS_CENTER
+    CTEXT           "卖一",STATIC_ASK,16,288,44,9
+    CTEXT           "买一",STATIC_BID,16,307,44,10
+    CTEXT           "------",STATIC_ASKVALUE,68,289,44,8
+    CTEXT           "------",STATIC_BIDVALUE,68,309,44,8
+    CTEXT           "---",STATIC_ASKVOLUME,119,290,31,8
+    CTEXT           "---",STATIC_BIDVOLUME,119,309,31,8
+    CTEXT           "最新",STATIC_LASTPRICE,14,333,39,9
+    CTEXT           "昨结",STATIC_PreSettlementPrice,101,333,37,9
+    CTEXT           "涨跌",STATIC_changeprice,15,351,37,9
+    CTEXT           "昨收",STATIC_PreClosePrice,101,351,37,9
+    CTEXT           "今开",STATIC_OpenPrice,101,368,37,9
+    CTEXT           "最高",STATIC_HighestPrice,101,385,37,9
+    CTEXT           "最低",STATIC_LowestPrice,101,402,37,9
+    CTEXT           "涨停",STATIC_UpperLimitPrice,15,368,37,9
+    CTEXT           "跌停",STATIC_LowerLimitPrice,15,385,37,9
+    CTEXT           "幅度",STATIC_RANGE,15,402,37,9
+    CTEXT           "------",STATIC_LASTPRICE_VALUE,49,333,41,9
+    CTEXT           "------",STATIC_changeprice_value,49,351,41,9
+    CTEXT           "------",STATIC_UpperLimitPrice_value,50,368,40,9
+    CTEXT           "------",STATIC_LowerLimitPrice_value,50,385,40,9
+    CTEXT           "------",STATIC_RANGE_value,49,402,41,9
+    CTEXT           "------",STATIC_PreSettlementPrice_value,150,333,37,9
+    CTEXT           "------",STATIC_PreClosePrice_value,150,351,37,9
+    CTEXT           "------",STATIC_OpenPrice_value,150,368,37,9
+    CTEXT           "------",STATIC_HighestPrice_value,150,385,37,9
+    CTEXT           "------",STATIC_LowestPrice_value,150,402,37,9
+    CTEXT           "------",STATIC_tickInstrument,150,288,47,10
+    CTEXT           "------",STATIC_tickExchange,156,308,36,8
+END
+
+DIALOG_POSITION DIALOGEX 0, 0, 217, 255
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "平仓/止盈损"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CTEXT           "合约",STATIC_INSTRUMENT,10,16,71,11
+    EDITTEXT        EDIT_INSTRUMENT,81,12,121,15,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    CTEXT           "平仓方向",STATIC_DIRECTION,10,33,71,13
+    EDITTEXT        EDIT_DIRECTION,81,30,121,16,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    GROUPBOX        "平仓类型",STATIC_CLOSETYPE,26,68,184,26
+    CONTROL         "平今",RADIO_CLOSETODAY,"Button",BS_AUTORADIOBUTTON | WS_GROUP,81,78,60,11
+    CONTROL         "平仓",RADIO_CLOSE,"Button",BS_AUTORADIOBUTTON,149,78,51,11
+    CTEXT           "交易量",STATIC_VOLUME,10,103,71,12
+    EDITTEXT        EDIT_VOLUME,81,100,121,15,ES_CENTER | ES_AUTOHSCROLL
+    PUSHBUTTON      "限价",BUTTON_PRICETYPE,7,120,74,13
+    EDITTEXT        EDIT_PRICE,81,141,121,16,ES_CENTER | ES_AUTOHSCROLL
+    PUSHBUTTON      "平仓/止盈损",BUTTON_CLOSE,7,212,203,29,0,WS_EX_DLGMODALFRAME
+    CTEXT           "交易所(弃用)",STATIC_EXCHANGE,17,51,57,12
+    COMBOBOX        COMBO_EXCHANGE,81,51,121,30,CBS_DROPDOWN | CBS_SORT | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        COMBO_PRICETYPE,81,121,121,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "止盈损",STATIC_GROUPPROFITLOSS,7,157,203,50
+    CONTROL         "止盈损",CHECK_PROFITLOSS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,170,60,10
+    CONTROL         "止盈",RADIO_PROFIT,"Button",BS_AUTORADIOBUTTON | WS_GROUP,81,170,32,10
+    CONTROL         "止损",RADIO_LOSS,"Button",BS_AUTORADIOBUTTON,144,170,32,10
+    CTEXT           "触发价格",STATIC_TOUCHPRICE,15,189,39,10
+    EDITTEXT        EDIT_TOUCHPRICE,81,185,121,14,ES_AUTOHSCROLL
+END
+
+DIALOG_CANCELORDER DIALOGEX 0, 0, 161, 212
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "撤单"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CTEXT           "撤单:",STATIC_ORDERSYSID,7,9,46,13
+    LTEXT           "---",STATIC_ORDERSYSIDVALUE,60,9,87,13
+    CTEXT           "合约:",STATIC_INSTRUMENT,7,27,46,10
+    CTEXT           "---",STATIC_INSTRUMENTVALUE,60,26,90,11
+    CTEXT           "方向:",STATIC_DIRECTION,7,45,45,12
+    CTEXT           "---",STATIC_DIRECTIONVALUE,60,46,90,11
+    CTEXT           "开平:",STATIC_OPENCLOSE,7,63,45,11
+    CTEXT           "---",STATIC_OPENCLOSEVALUE,60,63,90,11
+    CTEXT           "交易量:",STATIC_VOLUME,7,81,46,11
+    CTEXT           "---",STATIC_VOLUMVALUE,60,80,90,12
+    CTEXT           "报单价格:",STATIC_PRICE,7,98,45,11
+    CTEXT           "---",STATIC_PRICEVALUE,60,98,90,11
+    PUSHBUTTON      "撤单",BUTTON_CANCELORDER,7,116,143,18,0,WS_EX_DLGMODALFRAME
+    GROUPBOX        "批量撤单(已弃用)",STATIC_BATCHORDERACTION,7,163,143,39
+    CONTROL         "全撤",MFCBUTTON_BATCHORDERACTION,"MfcButton",WS_DISABLED | WS_TABSTOP,7,176,143,18,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "预埋撤单",BUTTON_CANCELPARKEDORDER,7,139,143,18,0,WS_EX_DLGMODALFRAME
+END
+
+DIALOG_QRYCOMMISSIONRATE DIALOGEX 0, 0, 229, 224
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "查交易所手续费"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CTEXT           "合约",STATIC_INSTRUMENT,7,8,83,11
+    COMBOBOX        COMBO_INSTRUMENT,90,7,90,12,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "交易所(弃用)",STATIC_EXCHANGE,7,27,82,11
+    COMBOBOX        COMBO_EXCHANGE,90,26,90,12,CBS_DROPDOWN | CBS_SORT | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "查询",BUTTON_QRY,7,46,215,17,0,WS_EX_DLGMODALFRAME
+    GROUPBOX        "返回信息",STATIC_RETURNIMFORMATION,14,66,201,149
+    CTEXT           "开仓手续费率",STATIC_OPENCOMMISSIONRATE,17,89,73,13
+    EDITTEXT        EDIT_OPENCOMMISSIONRATE,90,89,90,13,ES_AUTOHSCROLL | ES_READONLY
+    CTEXT           "开仓手续费",STATIC_OPENCOMMISSION,15,109,75,13
+    EDITTEXT        EDIT_OPENCOMMISSION,90,109,90,13,ES_AUTOHSCROLL | ES_READONLY
+    CTEXT           "平仓手续费率",STATIC_CLOSECOMMISSIONRATE,16,128,74,13
+    EDITTEXT        EDIT_CLOSECOMMISSIONRATE,90,128,90,13,ES_AUTOHSCROLL | ES_READONLY
+    CTEXT           "平仓手续费",STATIC_CLOSECOMMISSION,16,147,74,13
+    EDITTEXT        EDIT_CLOSECOMMISSION,90,147,90,13,ES_AUTOHSCROLL | ES_READONLY
+    CTEXT           "平今手续费率",STATIC_CLOSETODAYCOMMISSIONRATE,15,166,75,13
+    EDITTEXT        EDIT_CLOSETODAYCOMMISSIONRATE,90,166,90,13,ES_AUTOHSCROLL | ES_READONLY
+    CTEXT           "平今手续费",STATIC_CLOSETODAYCOMMISSION,16,187,74,11
+    EDITTEXT        EDIT_CLOSETODAYCOMMISSION,90,185,90,13,ES_AUTOHSCROLL | ES_READONLY
+END
+
+DIALOG_QRYINSTRUMENTMARGINRATE DIALOGEX 0, 0, 247, 193
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "查保证金率"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CTEXT           "合约",STATIC_INSTRUMENT,7,18,45,11
+    COMBOBOX        COMBO_INSTRUMENT,60,16,150,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "投保",STATIC_HEDGEFLAG,7,35,45,11
+    COMBOBOX        COMBO_HEDGEFLAG,60,34,150,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "查询",BUTTON_QRYMARGINRATE,7,53,233,16,0,WS_EX_DLGMODALFRAME
+    GROUPBOX        "返回信息",STATIC_RETURNMARGINRATE,12,74,221,108
+    CTEXT           "多头保证金率",STATIC_LongMarginRatioByMoney,14,96,64,12
+    EDITTEXT        EDIT_LongMarginRatioByMoney,78,94,144,14,ES_AUTOHSCROLL | ES_READONLY
+    CTEXT           "多头保证金费",STATIC_LongMarginRatioByVolume,14,119,64,12
+    EDITTEXT        EDIT_LongMarginRatioByVolume,78,117,144,14,ES_AUTOHSCROLL | ES_READONLY
+    CTEXT           "空头保证金率",STATIC_ShortMarginRatioByMoney,15,141,63,12
+    EDITTEXT        EDIT_ShortMarginRatioByMoney,78,139,144,14,ES_AUTOHSCROLL | ES_READONLY
+    CTEXT           "空头保证金费",STATIC_ShortMarginRatioByVolume,14,164,64,12
+    EDITTEXT        EDIT_ShortMarginRatioByVolume,78,162,144,14,ES_AUTOHSCROLL | ES_READONLY
+END
+
+DIALOG_QRYEXCHANGERATE DIALOGEX 0, 0, 173, 146
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "查汇率"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CTEXT           "源币种",STATIC_FROMCURRENCYID,7,19,41,10
+    CTEXT           "目标币种",STATIC_TOCURRENCYID,7,38,41,10
+    COMBOBOX        COMBO_TOCURRENCYID,55,36,95,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        COMBO_FROMCURRENCYID,55,17,95,12,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "查询",BUTTON_QRYEXCHANGERATE,7,56,159,21,BS_FLAT,WS_EX_DLGMODALFRAME
+    GROUPBOX        "返回信息",STATIC_RETURNEXCHANGERATE,7,86,159,51
+    CTEXT           "源币种单位数量",STATIC_FromCurrencyUnit,14,102,69,8
+    LTEXT           "汇率",STATIC_ExchangeRate,117,102,17,8
+    EDITTEXT        EDIT_FromCurrencyUnit,15,118,68,14,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        EDIT_ExchangeRate,98,118,61,14,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+END
+
+DIALOG_QRYORDERCOMMRATE DIALOGEX 0, 0, 183, 110
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "查询报撤单手续费"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    COMBOBOX        COMBO_INSTRUMENT,60,9,96,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "合约",STATIC_INSTRUMENT,7,10,45,11
+    CONTROL         "查询",MFCBUTTON_QRYCOMMRATE,"MfcButton",WS_TABSTOP,7,28,169,21,WS_EX_DLGMODALFRAME
+    GROUPBOX        "返回信息",STATIC_ORDERCOMMRATE,7,53,169,44
+    CTEXT           "报单手续费",STATIC_OrderCommByVolume,60,58,43,9
+    CTEXT           "撤单手续费",STATIC_OrderActionCommByVolume,60,78,43,10
+    EDITTEXT        EDIT_OrderCommByVolume,103,58,66,12,ES_AUTOHSCROLL
+    EDITTEXT        EDIT_OrderActionCommByVolume,103,78,66,12,ES_AUTOHSCROLL
+END
+
+DIALOG_LINKEXCHANGE DIALOGEX 0, 0, 161, 190
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "期货交易所相关"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "<a>SysLink1</a>",SYSLINK_SHFE,"SysLink",WS_TABSTOP,24,15,124,14
+    CONTROL         "<a>SysLink2</a>",SYSLINK_CFFEX,"SysLink",WS_TABSTOP,24,35,124,14
+    CONTROL         "<a>SysLink3</a>",SYSLINK3_DCE_,"SysLink",WS_TABSTOP,24,56,124,14
+    CONTROL         "<a>SysLink4</a>",SYSLINK_CZCE,"SysLink",WS_TABSTOP,24,77,124,14
+    CONTROL         "<a>SysLink5</a>",SYSLINK_INE,"SysLink",WS_TABSTOP,24,98,124,14
+    CONTROL         "<a>SysLink6</a>",SYSLINK_FUTUREDAILY,"SysLink",WS_TABSTOP,24,120,124,14
+    CONTROL         "<a>SysLink7</a>",SYSLINK_CTP,"SysLink",WS_TABSTOP,24,142,124,14
+    CONTROL         "<a>SysLink8</a>",SYSLINK_SIMNOW,"SysLink",WS_TABSTOP,24,163,124,14
+    GROUPBOX        "",IDC_STATIC,7,7,146,176
+END
+
+DIALOG_QRYMAINCONTRACT DIALOGEX 0, 0, 193, 310
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "查主力合约"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CTEXT           "产品",STATIC_PRODUCT,7,19,44,11
+    COMBOBOX        COMBO_PRODUCT,58,17,116,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "查询",MFCBUTTON_QRYMAINCONTRACT,"MfcButton",WS_TABSTOP,7,35,179,21,WS_EX_DLGMODALFRAME
+    EDITTEXT        EDIT_MAINCONTRACT,7,62,179,14,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    GROUPBOX        "多项查询",STATIC_SPECIFICQRY,7,84,179,206
+    PUSHBUTTON      "多项查询",BUTTON_SPECIFICQRYMAINCONTRACT,16,97,158,23,0,WS_EX_DLGMODALFRAME
+    EDITTEXT        EDIT_MULTIPLEMAINCONTRACT,58,130,128,153,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | ES_WANTRETURN
+    LISTBOX         LIST_PRODUCTSET,7,130,48,153,LBS_SORT | LBS_MULTIPLESEL | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "查询耗时较长，请耐心等待",STATIC_TIP,14,293,160,10
+END
+
+DIALOG_REMOVEPARKEDORDER DIALOGEX 0, 0, 159, 73
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "预埋撤单"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "",STATIC_INSTRUMENT,18,7,120,19
+    CONTROL         "预埋撤单",MFCBUTTON_REMOVEPARKEDORDER,"MfcButton",WS_TABSTOP,19,36,120,24,WS_EX_DLGMODALFRAME
+END
+
+DIALOG_REMOVEPARKEDORDERACTION DIALOGEX 0, 0, 157, 80
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "预埋撤单撤单"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CTEXT           "Static",STATIC_INSTRUMENT,18,15,120,20
+    CONTROL         "预埋撤单撤单",MFCBUTTON_REMOVEPARKEDORDER,"MfcButton",WS_TABSTOP,7,42,143,23,WS_EX_DLGMODALFRAME
+END
+
+DIALOG_REALTIMEPRICE DIALOGEX 0, 0, 549, 226
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "实时报价"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",STATIC_REALTIMEPRICEDISP,"Static",SS_BLACKFRAME,20,15,516,197
+END
+
+FORMVIEW_STRATEGYSTATUS DIALOGEX 0, 0, 187, 188
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    CONTROL         "",LIST_STRATEGYSTATUS,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | LVS_NOSCROLL | WS_BORDER | WS_TABSTOP,7,60,161,121
+    CTEXT           "策略名",STATIC_STRATEGYNAME,7,19,46,10
+    COMBOBOX        IDC_COMBO1,60,16,108,13,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "启动",MFCBUTTON_START,"MfcButton",WS_TABSTOP,60,34,45,14
+    PUSHBUTTON      "停止",BUTTON_STOP,114,34,47,14
+END
+
+FORMVIEW_STRATEGYMSG DIALOGEX 0, 0, 185, 200
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    GROUPBOX        "策略信息",STATIC_STRATEGYMSGBOX,7,7,171,186
+    CONTROL         "",LIST_STRATEGYMSG,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | LVS_NOSCROLL | WS_BORDER | WS_TABSTOP,13,18,160,168
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "TODO:  <公司名>"
+            VALUE "FileDescription", "MultiTrader"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "MultiTrader.exe"
+            VALUE "LegalCopyright", "TODO:  (C) <公司名>。  保留所有权利。"
+            VALUE "OriginalFilename", "MultiTrader.exe"
+            VALUE "ProductName", "TODO:  <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_MULTITRADER_FORM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+    END
+
+    DIALOG_LOGIN, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 127
+    END
+
+    FORMVIEW_STANDARD_MAKEORDER_BOARD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        VERTGUIDE, 25
+        VERTGUIDE, 60
+        VERTGUIDE, 90
+        VERTGUIDE, 119
+        VERTGUIDE, 150
+        VERTGUIDE, 178
+        VERTGUIDE, 201
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 423
+        HORZGUIDE, 23
+        HORZGUIDE, 40
+        HORZGUIDE, 65
+        HORZGUIDE, 84
+        HORZGUIDE, 121
+        HORZGUIDE, 145
+        HORZGUIDE, 165
+        HORZGUIDE, 185
+        HORZGUIDE, 217
+        HORZGUIDE, 234
+        HORZGUIDE, 269
+        HORZGUIDE, 277
+        HORZGUIDE, 278
+        HORZGUIDE, 342
+        HORZGUIDE, 360
+        HORZGUIDE, 377
+        HORZGUIDE, 394
+    END
+
+    DIALOG_POSITION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        VERTGUIDE, 81
+        VERTGUIDE, 144
+        VERTGUIDE, 202
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 248
+        HORZGUIDE, 39
+        HORZGUIDE, 63
+        HORZGUIDE, 83
+        HORZGUIDE, 94
+        HORZGUIDE, 115
+        HORZGUIDE, 133
+        HORZGUIDE, 180
+        HORZGUIDE, 199
+    END
+
+    DIALOG_CANCELORDER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 154
+        VERTGUIDE, 60
+        VERTGUIDE, 150
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 205
+        HORZGUIDE, 22
+        HORZGUIDE, 37
+        HORZGUIDE, 57
+        HORZGUIDE, 74
+        HORZGUIDE, 92
+        HORZGUIDE, 109
+    END
+
+    DIALOG_QRYCOMMISSIONRATE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 222
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 217
+    END
+
+    DIALOG_QRYINSTRUMENTMARGINRATE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 240
+        VERTGUIDE, 78
+        VERTGUIDE, 222
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 186
+        HORZGUIDE, 108
+        HORZGUIDE, 131
+        HORZGUIDE, 153
+        HORZGUIDE, 176
+    END
+
+    DIALOG_QRYEXCHANGERATE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 166
+        VERTGUIDE, 55
+        VERTGUIDE, 90
+        VERTGUIDE, 150
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 139
+        HORZGUIDE, 29
+        HORZGUIDE, 48
+        HORZGUIDE, 77
+        HORZGUIDE, 110
+    END
+
+    DIALOG_QRYORDERCOMMRATE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 176
+        VERTGUIDE, 60
+        VERTGUIDE, 103
+        VERTGUIDE, 156
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 103
+        HORZGUIDE, 21
+        HORZGUIDE, 42
+        HORZGUIDE, 70
+    END
+
+    DIALOG_LINKEXCHANGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 154
+        VERTGUIDE, 24
+        VERTGUIDE, 148
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 183
+        HORZGUIDE, 49
+        HORZGUIDE, 70
+        HORZGUIDE, 91
+        HORZGUIDE, 112
+        HORZGUIDE, 134
+        HORZGUIDE, 156
+    END
+
+    DIALOG_QRYMAINCONTRACT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 186
+        VERTGUIDE, 58
+        VERTGUIDE, 174
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 303
+        HORZGUIDE, 30
+        HORZGUIDE, 49
+        HORZGUIDE, 76
+        HORZGUIDE, 120
+        HORZGUIDE, 283
+    END
+
+    DIALOG_REMOVEPARKEDORDER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 152
+        VERTGUIDE, 30
+        VERTGUIDE, 150
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 66
+        HORZGUIDE, 26
+        HORZGUIDE, 36
+        HORZGUIDE, 60
+    END
+
+    DIALOG_REMOVEPARKEDORDERACTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 150
+        VERTGUIDE, 18
+        VERTGUIDE, 138
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 73
+        HORZGUIDE, 35
+    END
+
+    DIALOG_REALTIMEPRICE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 542
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 219
+    END
+
+    FORMVIEW_STRATEGYSTATUS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        VERTGUIDE, 60
+        VERTGUIDE, 114
+        VERTGUIDE, 168
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+        HORZGUIDE, 29
+        HORZGUIDE, 48
+    END
+
+    FORMVIEW_STRATEGYMSG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 178
+        VERTGUIDE, 13
+        VERTGUIDE, 173
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+        HORZGUIDE, 18
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+DIALOG_QRYEXCHANGERATE DLGINIT
+BEGIN
+    COMBO_TOCURRENCYID, 0x403, 4, 0
+0x4e43, 0x0059, 
+    COMBO_TOCURRENCYID, 0x403, 4, 0
+0x5355, 0x0044, 
+    COMBO_TOCURRENCYID, 0x403, 4, 0
+0x5545, 0x0052, 
+    COMBO_TOCURRENCYID, 0x403, 4, 0
+0x4247, 0x0050, 
+    COMBO_TOCURRENCYID, 0x403, 4, 0
+0x504a, 0x0059, 
+    COMBO_TOCURRENCYID, 0x403, 4, 0
+0x5541, 0x0044, 
+    COMBO_FROMCURRENCYID, 0x403, 4, 0
+0x4e43, 0x0059, 
+    COMBO_FROMCURRENCYID, 0x403, 4, 0
+0x5355, 0x0044, 
+    COMBO_FROMCURRENCYID, 0x403, 4, 0
+0x5545, 0x0052, 
+    COMBO_FROMCURRENCYID, 0x403, 4, 0
+0x4247, 0x0050, 
+    COMBO_FROMCURRENCYID, 0x403, 4, 0
+0x504a, 0x0059, 
+    COMBO_FROMCURRENCYID, 0x403, 4, 0
+0x5541, 0x0044, 
+    0
+END
+
+DIALOG_QRYORDERCOMMRATE DLGINIT
+BEGIN
+    MFCBUTTON_QRYCOMMRATE, 0x37c, 369, 0
+0x4d3c, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x535f, 0x7974, 0x656c, 0x343e, 
+0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x7453, 0x6c79, 0x3e65, 
+0x4d3c, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x415f, 0x7475, 0x736f, 0x7a69, 
+0x3e65, 0x4146, 0x534c, 0x3c45, 0x4d2f, 0x4346, 0x7542, 0x7474, 0x6e6f, 
+0x415f, 0x7475, 0x736f, 0x7a69, 0x3e65, 0x4d3c, 0x4346, 0x7542, 0x7474, 
+0x6e6f, 0x545f, 0x6f6f, 0x746c, 0x7069, 0x3c3e, 0x4d2f, 0x4346, 0x7542, 
+0x7474, 0x6e6f, 0x545f, 0x6f6f, 0x746c, 0x7069, 0x3c3e, 0x464d, 0x4243, 
+0x7475, 0x6f74, 0x5f6e, 0x7546, 0x6c6c, 0x6554, 0x7478, 0x6f54, 0x6c6f, 
+0x543e, 0x5552, 0x3c45, 0x4d2f, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x465f, 
+0x6c75, 0x546c, 0x7865, 0x5474, 0x6f6f, 0x3e6c, 0x4d3c, 0x4346, 0x7542, 
+0x7474, 0x6e6f, 0x435f, 0x7275, 0x6f73, 0x5472, 0x7079, 0x3e65, 0x3131, 
+0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x7543, 0x7372, 0x726f, 
+0x7954, 0x6570, 0x3c3e, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x6d49, 
+0x6761, 0x5465, 0x7079, 0x3e65, 0x3c38, 0x4d2f, 0x4346, 0x7542, 0x7474, 
+0x6e6f, 0x495f, 0x616d, 0x6567, 0x7954, 0x6570, 0x3c3e, 0x464d, 0x4243, 
+0x7475, 0x6f74, 0x5f6e, 0x6d49, 0x6761, 0x4f65, 0x546e, 0x706f, 0x463e, 
+0x4c41, 0x4553, 0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x6d49, 
+0x6761, 0x4f65, 0x546e, 0x706f, 0x3c3e, 0x464d, 0x4243, 0x7475, 0x6f74, 
+0x5f6e, 0x6d49, 0x6761, 0x4f65, 0x526e, 0x6769, 0x7468, 0x463e, 0x4c41, 
+0x4553, 0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x6d49, 0x6761, 
+0x4f65, 0x526e, 0x6769, 0x7468, "\076" 
+    0
+END
+
+DIALOG_QRYMAINCONTRACT DLGINIT
+BEGIN
+    MFCBUTTON_QRYMAINCONTRACT, 0x37c, 369, 0
+0x4d3c, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x535f, 0x7974, 0x656c, 0x343e, 
+0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x7453, 0x6c79, 0x3e65, 
+0x4d3c, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x415f, 0x7475, 0x736f, 0x7a69, 
+0x3e65, 0x4146, 0x534c, 0x3c45, 0x4d2f, 0x4346, 0x7542, 0x7474, 0x6e6f, 
+0x415f, 0x7475, 0x736f, 0x7a69, 0x3e65, 0x4d3c, 0x4346, 0x7542, 0x7474, 
+0x6e6f, 0x545f, 0x6f6f, 0x746c, 0x7069, 0x3c3e, 0x4d2f, 0x4346, 0x7542, 
+0x7474, 0x6e6f, 0x545f, 0x6f6f, 0x746c, 0x7069, 0x3c3e, 0x464d, 0x4243, 
+0x7475, 0x6f74, 0x5f6e, 0x7546, 0x6c6c, 0x6554, 0x7478, 0x6f54, 0x6c6f, 
+0x543e, 0x5552, 0x3c45, 0x4d2f, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x465f, 
+0x6c75, 0x546c, 0x7865, 0x5474, 0x6f6f, 0x3e6c, 0x4d3c, 0x4346, 0x7542, 
+0x7474, 0x6e6f, 0x435f, 0x7275, 0x6f73, 0x5472, 0x7079, 0x3e65, 0x3131, 
+0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x7543, 0x7372, 0x726f, 
+0x7954, 0x6570, 0x3c3e, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x6d49, 
+0x6761, 0x5465, 0x7079, 0x3e65, 0x3c38, 0x4d2f, 0x4346, 0x7542, 0x7474, 
+0x6e6f, 0x495f, 0x616d, 0x6567, 0x7954, 0x6570, 0x3c3e, 0x464d, 0x4243, 
+0x7475, 0x6f74, 0x5f6e, 0x6d49, 0x6761, 0x4f65, 0x546e, 0x706f, 0x463e, 
+0x4c41, 0x4553, 0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x6d49, 
+0x6761, 0x4f65, 0x546e, 0x706f, 0x3c3e, 0x464d, 0x4243, 0x7475, 0x6f74, 
+0x5f6e, 0x6d49, 0x6761, 0x4f65, 0x526e, 0x6769, 0x7468, 0x463e, 0x4c41, 
+0x4553, 0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x6d49, 0x6761, 
+0x4f65, 0x526e, 0x6769, 0x7468, "\076" 
+    0
+END
+
+DIALOG_CANCELORDER DLGINIT
+BEGIN
+    MFCBUTTON_BATCHORDERACTION, 0x37c, 369, 0
+0x4d3c, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x535f, 0x7974, 0x656c, 0x343e, 
+0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x7453, 0x6c79, 0x3e65, 
+0x4d3c, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x415f, 0x7475, 0x736f, 0x7a69, 
+0x3e65, 0x4146, 0x534c, 0x3c45, 0x4d2f, 0x4346, 0x7542, 0x7474, 0x6e6f, 
+0x415f, 0x7475, 0x736f, 0x7a69, 0x3e65, 0x4d3c, 0x4346, 0x7542, 0x7474, 
+0x6e6f, 0x545f, 0x6f6f, 0x746c, 0x7069, 0x3c3e, 0x4d2f, 0x4346, 0x7542, 
+0x7474, 0x6e6f, 0x545f, 0x6f6f, 0x746c, 0x7069, 0x3c3e, 0x464d, 0x4243, 
+0x7475, 0x6f74, 0x5f6e, 0x7546, 0x6c6c, 0x6554, 0x7478, 0x6f54, 0x6c6f, 
+0x543e, 0x5552, 0x3c45, 0x4d2f, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x465f, 
+0x6c75, 0x546c, 0x7865, 0x5474, 0x6f6f, 0x3e6c, 0x4d3c, 0x4346, 0x7542, 
+0x7474, 0x6e6f, 0x435f, 0x7275, 0x6f73, 0x5472, 0x7079, 0x3e65, 0x3131, 
+0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x7543, 0x7372, 0x726f, 
+0x7954, 0x6570, 0x3c3e, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x6d49, 
+0x6761, 0x5465, 0x7079, 0x3e65, 0x3c38, 0x4d2f, 0x4346, 0x7542, 0x7474, 
+0x6e6f, 0x495f, 0x616d, 0x6567, 0x7954, 0x6570, 0x3c3e, 0x464d, 0x4243, 
+0x7475, 0x6f74, 0x5f6e, 0x6d49, 0x6761, 0x4f65, 0x546e, 0x706f, 0x463e, 
+0x4c41, 0x4553, 0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x6d49, 
+0x6761, 0x4f65, 0x546e, 0x706f, 0x3c3e, 0x464d, 0x4243, 0x7475, 0x6f74, 
+0x5f6e, 0x6d49, 0x6761, 0x4f65, 0x526e, 0x6769, 0x7468, 0x463e, 0x4c41, 
+0x4553, 0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x6d49, 0x6761, 
+0x4f65, 0x526e, 0x6769, 0x7468, "\076" 
+    0
+END
+
+DIALOG_REMOVEPARKEDORDER DLGINIT
+BEGIN
+    MFCBUTTON_REMOVEPARKEDORDER, 0x37c, 369, 0
+0x4d3c, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x535f, 0x7974, 0x656c, 0x343e, 
+0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x7453, 0x6c79, 0x3e65, 
+0x4d3c, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x415f, 0x7475, 0x736f, 0x7a69, 
+0x3e65, 0x4146, 0x534c, 0x3c45, 0x4d2f, 0x4346, 0x7542, 0x7474, 0x6e6f, 
+0x415f, 0x7475, 0x736f, 0x7a69, 0x3e65, 0x4d3c, 0x4346, 0x7542, 0x7474, 
+0x6e6f, 0x545f, 0x6f6f, 0x746c, 0x7069, 0x3c3e, 0x4d2f, 0x4346, 0x7542, 
+0x7474, 0x6e6f, 0x545f, 0x6f6f, 0x746c, 0x7069, 0x3c3e, 0x464d, 0x4243, 
+0x7475, 0x6f74, 0x5f6e, 0x7546, 0x6c6c, 0x6554, 0x7478, 0x6f54, 0x6c6f, 
+0x543e, 0x5552, 0x3c45, 0x4d2f, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x465f, 
+0x6c75, 0x546c, 0x7865, 0x5474, 0x6f6f, 0x3e6c, 0x4d3c, 0x4346, 0x7542, 
+0x7474, 0x6e6f, 0x435f, 0x7275, 0x6f73, 0x5472, 0x7079, 0x3e65, 0x3131, 
+0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x7543, 0x7372, 0x726f, 
+0x7954, 0x6570, 0x3c3e, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x6d49, 
+0x6761, 0x5465, 0x7079, 0x3e65, 0x3c38, 0x4d2f, 0x4346, 0x7542, 0x7474, 
+0x6e6f, 0x495f, 0x616d, 0x6567, 0x7954, 0x6570, 0x3c3e, 0x464d, 0x4243, 
+0x7475, 0x6f74, 0x5f6e, 0x6d49, 0x6761, 0x4f65, 0x546e, 0x706f, 0x463e, 
+0x4c41, 0x4553, 0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x6d49, 
+0x6761, 0x4f65, 0x546e, 0x706f, 0x3c3e, 0x464d, 0x4243, 0x7475, 0x6f74, 
+0x5f6e, 0x6d49, 0x6761, 0x4f65, 0x526e, 0x6769, 0x7468, 0x463e, 0x4c41, 
+0x4553, 0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x6d49, 0x6761, 
+0x4f65, 0x526e, 0x6769, 0x7468, "\076" 
+    0
+END
+
+DIALOG_REMOVEPARKEDORDERACTION DLGINIT
+BEGIN
+    MFCBUTTON_REMOVEPARKEDORDER, 0x37c, 369, 0
+0x4d3c, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x535f, 0x7974, 0x656c, 0x343e, 
+0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x7453, 0x6c79, 0x3e65, 
+0x4d3c, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x415f, 0x7475, 0x736f, 0x7a69, 
+0x3e65, 0x4146, 0x534c, 0x3c45, 0x4d2f, 0x4346, 0x7542, 0x7474, 0x6e6f, 
+0x415f, 0x7475, 0x736f, 0x7a69, 0x3e65, 0x4d3c, 0x4346, 0x7542, 0x7474, 
+0x6e6f, 0x545f, 0x6f6f, 0x746c, 0x7069, 0x3c3e, 0x4d2f, 0x4346, 0x7542, 
+0x7474, 0x6e6f, 0x545f, 0x6f6f, 0x746c, 0x7069, 0x3c3e, 0x464d, 0x4243, 
+0x7475, 0x6f74, 0x5f6e, 0x7546, 0x6c6c, 0x6554, 0x7478, 0x6f54, 0x6c6f, 
+0x543e, 0x5552, 0x3c45, 0x4d2f, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x465f, 
+0x6c75, 0x546c, 0x7865, 0x5474, 0x6f6f, 0x3e6c, 0x4d3c, 0x4346, 0x7542, 
+0x7474, 0x6e6f, 0x435f, 0x7275, 0x6f73, 0x5472, 0x7079, 0x3e65, 0x3131, 
+0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x7543, 0x7372, 0x726f, 
+0x7954, 0x6570, 0x3c3e, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x6d49, 
+0x6761, 0x5465, 0x7079, 0x3e65, 0x3c38, 0x4d2f, 0x4346, 0x7542, 0x7474, 
+0x6e6f, 0x495f, 0x616d, 0x6567, 0x7954, 0x6570, 0x3c3e, 0x464d, 0x4243, 
+0x7475, 0x6f74, 0x5f6e, 0x6d49, 0x6761, 0x4f65, 0x546e, 0x706f, 0x463e, 
+0x4c41, 0x4553, 0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x6d49, 
+0x6761, 0x4f65, 0x546e, 0x706f, 0x3c3e, 0x464d, 0x4243, 0x7475, 0x6f74, 
+0x5f6e, 0x6d49, 0x6761, 0x4f65, 0x526e, 0x6769, 0x7468, 0x463e, 0x4c41, 
+0x4553, 0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x6d49, 0x6761, 
+0x4f65, 0x526e, 0x6769, 0x7468, "\076" 
+    0
+END
+
+FORMVIEW_STRATEGYSTATUS DLGINIT
+BEGIN
+    MFCBUTTON_START, 0x37c, 369, 0
+0x4d3c, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x535f, 0x7974, 0x656c, 0x343e, 
+0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x7453, 0x6c79, 0x3e65, 
+0x4d3c, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x415f, 0x7475, 0x736f, 0x7a69, 
+0x3e65, 0x4146, 0x534c, 0x3c45, 0x4d2f, 0x4346, 0x7542, 0x7474, 0x6e6f, 
+0x415f, 0x7475, 0x736f, 0x7a69, 0x3e65, 0x4d3c, 0x4346, 0x7542, 0x7474, 
+0x6e6f, 0x545f, 0x6f6f, 0x746c, 0x7069, 0x3c3e, 0x4d2f, 0x4346, 0x7542, 
+0x7474, 0x6e6f, 0x545f, 0x6f6f, 0x746c, 0x7069, 0x3c3e, 0x464d, 0x4243, 
+0x7475, 0x6f74, 0x5f6e, 0x7546, 0x6c6c, 0x6554, 0x7478, 0x6f54, 0x6c6f, 
+0x543e, 0x5552, 0x3c45, 0x4d2f, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x465f, 
+0x6c75, 0x546c, 0x7865, 0x5474, 0x6f6f, 0x3e6c, 0x4d3c, 0x4346, 0x7542, 
+0x7474, 0x6e6f, 0x435f, 0x7275, 0x6f73, 0x5472, 0x7079, 0x3e65, 0x3131, 
+0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x7543, 0x7372, 0x726f, 
+0x7954, 0x6570, 0x3c3e, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x6d49, 
+0x6761, 0x5465, 0x7079, 0x3e65, 0x3c38, 0x4d2f, 0x4346, 0x7542, 0x7474, 
+0x6e6f, 0x495f, 0x616d, 0x6567, 0x7954, 0x6570, 0x3c3e, 0x464d, 0x4243, 
+0x7475, 0x6f74, 0x5f6e, 0x6d49, 0x6761, 0x4f65, 0x546e, 0x706f, 0x463e, 
+0x4c41, 0x4553, 0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x6d49, 
+0x6761, 0x4f65, 0x546e, 0x706f, 0x3c3e, 0x464d, 0x4243, 0x7475, 0x6f74, 
+0x5f6e, 0x6d49, 0x6761, 0x4f65, 0x526e, 0x6769, 0x7468, 0x463e, 0x4c41, 
+0x4553, 0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x6d49, 0x6761, 
+0x4f65, 0x526e, 0x6769, 0x7468, "\076" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE 初始化失败。  请确保 OLE 库是正确的版本。"
+    IDS_STRING_DRAW_OPEN    "开盘价"
+    IDS_STRING_DRAW_MAXPRICE "最高价"
+    IDS_STRING_DRAW_MINPRICE "最低价"
+    IDS_STRING_DRAW_PRECLOSE "昨收盘"
+    IDS_STRING_DRAW_BUYPRICE01 "买一价"
+    IDS_STRING_DRAW_SELLPRICE01 "卖一价"
+    IDS_STRING_DRAW_LASTPRICE "最新价"
+    IDS_STRING_DRAW_SETTLEMENTPRICE "结算价"
+    IDS_STRING_DRAW_PRESETTLEMENTPRICE "昨结算价"
+    IDS_STRING_DRAW_BUYCOUNT01 "买一量"
+    IDS_STRING_DRAW_SELLCOUNT01 "卖一量"
+END
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "Quant Tester ToolBox"
+	IDR_MultiTraderTYPE         "\nMultiTrader\nMultiTrader\n\n\nMultiTrader.Document\nMultiTrader.Document"
+    ID_WINDOW_MANAGER       "窗口(&W)..."
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "MultiTrader"
+    AFX_IDS_IDLEMESSAGE     "账户信息："
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+    ID_INDICATOR_STATICPROFITLOSS "动态权益："
+    ID_INDICATOR_AVAILABLE  "可用资金："
+    ID_INDICATOR_CLOSEPROFIT "平仓盈亏："
+    ID_INDICATOR_POSITIONPROFIT "持仓盈亏："
+    ID_INDICATOR_COMMISSION "手续费："
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_NEW             "创建新文档\n新建"
+    ID_FILE_OPEN            "打开现有文档\n打开"
+    ID_FILE_CLOSE           "关闭活动文档\n关闭"
+    ID_FILE_SAVE            "保存活动文档\n保存"
+    ID_FILE_SAVE_AS         "用新名称保存活动文档\n另存为"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "显示程序信息、版本号和版权信息\n关于"
+    ID_APP_EXIT             "退出应用程序；提示保存文档\n退出"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_MRU_FILE1       "打开此文档"
+    ID_FILE_MRU_FILE2       "打开此文档"
+    ID_FILE_MRU_FILE3       "打开此文档"
+    ID_FILE_MRU_FILE4       "打开此文档"
+    ID_FILE_MRU_FILE5       "打开此文档"
+    ID_FILE_MRU_FILE6       "打开此文档"
+    ID_FILE_MRU_FILE7       "打开此文档"
+    ID_FILE_MRU_FILE8       "打开此文档"
+    ID_FILE_MRU_FILE9       "打开此文档"
+    ID_FILE_MRU_FILE10      "打开此文档"
+    ID_FILE_MRU_FILE11      "打开此文档"
+    ID_FILE_MRU_FILE12      "打开此文档"
+    ID_FILE_MRU_FILE13      "打开此文档"
+    ID_FILE_MRU_FILE14      "打开此文档"
+    ID_FILE_MRU_FILE15      "打开此文档"
+    ID_FILE_MRU_FILE16      "打开此文档"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "切换到下一个窗格\n下一窗格"
+    ID_PREV_PANE            "切换回上一个窗格\n上一窗格"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_NEW           "为活动文档打开另一个窗口\n新建窗口"
+    ID_WINDOW_ARRANGE       "在窗口底部排列图标\n排列图标"
+    ID_WINDOW_CASCADE       "以重叠方式排列窗口\n层叠窗口"
+    ID_WINDOW_TILE_HORZ     "以不重叠的平铺方式排列窗口\n平铺窗口"
+    ID_WINDOW_TILE_VERT     "以不重叠的平铺方式排列窗口\n平铺窗口"
+    ID_WINDOW_SPLIT         "将活动窗口拆分为多个窗格\n拆分"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "清除所选内容\n清除"
+    ID_EDIT_CLEAR_ALL       "清除全部内容\n全部清除"
+    ID_EDIT_COPY            "复制所选内容，将其放入剪贴板\n复制"
+    ID_EDIT_CUT             "剪切所选内容，将其放入剪贴板\n剪切"
+    ID_EDIT_FIND            "查找指定的文本\n查找"
+    ID_EDIT_PASTE           "插入剪贴板内容\n粘贴"
+    ID_EDIT_REPEAT          "重复上一操作\n重复"
+    ID_EDIT_REPLACE         "用其他文本替换特定的文本\n替换"
+    ID_EDIT_SELECT_ALL      "选定整个文档\n全选"
+    ID_EDIT_UNDO            "撤消上一操作\n撤消"
+    ID_EDIT_REDO            "重做上次撤消的操作\n重做"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_STATUS_BAR      "显示或隐藏状态栏\n切换状态栏"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "更改窗口大小"
+    AFX_IDS_SCMOVE          "更改窗口位置"
+    AFX_IDS_SCMINIMIZE      "将窗口缩小成图标"
+    AFX_IDS_SCMAXIMIZE      "将窗口放大到最大尺寸"
+    AFX_IDS_SCNEXTWINDOW    "切换到下一个文档窗口"
+    AFX_IDS_SCPREVWINDOW    "切换到上一个文档窗口"
+    AFX_IDS_SCCLOSE         "关闭活动窗口并提示保存文档"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "将窗口恢复到正常大小"
+    AFX_IDS_SCTASKLIST      "激活任务列表"
+    AFX_IDS_MDICHILD        "激活此窗口"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING_DRAW_OPENINSTREST "持仓量"
+    IDS_STRING_DRAW_VOLUME  "成交量"
+    IDS_STRING_DRAW_INFO    "明细数据"
+    IDS_STATUS_PANE1        "窗格 1"
+    IDS_STATUS_PANE2        "窗格 2"
+    IDS_TOOLBAR_STANDARD    "标准"
+    IDS_TOOLBAR_CUSTOMIZE   "自定义..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FILE_VIEW           "策略树"
+    IDS_CLASS_VIEW          "类视图"
+    IDS_OUTPUT_WND          "交易情况"
+    IDS_PROPERTIES_WND      "属性"
+    IDS_STRATEGY_VIEW       "策略状态"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_POSITIONDETAIL_TAB  "持仓明细"
+    IDS_EXPLORER            "资源管理器"
+    IDS_EDIT_MENU           "编辑"
+    IDS_CLOSETRADED_TAB     "平仓"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CONDITIONORDER_TAB  "条件单"
+    IDS_PARKEDORDERACTION_TAB "预埋撤单"
+    IDS_PARKEDORDER_TAB     "预埋单"
+    IDS_ORDER_TAB           "委托"
+    IDS_POSITION_TAB        "持仓"
+    IDS_TRADED_TAB          "成交"
+    IDS_UNFILLEDORDER_TAB   "未成委托"
+END
+
+#endif    // Chinese (Simplified, PRC) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#include "res\UI.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#if !defined(_AFXDLL)
+#include "l.CHS\afxprint.rc"        // 打印/打印预览资源
+#include "l.CHS\afxribbon.rc"        // MFC 功能区和控件条资源
+#endif
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

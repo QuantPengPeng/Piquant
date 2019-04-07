@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GridCtrl">
+      <UniqueIdentifier>{518c43d0-550a-464a-878d-a4980376b5ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Login">
+      <UniqueIdentifier>{96a58184-2506-44c7-aa44-988109bd51f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShowInstruments">
+      <UniqueIdentifier>{5412f1dd-3b13-4869-9f9c-240e6dd1fad1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MarketDataView">
+      <UniqueIdentifier>{7526d0ae-a12e-46c2-8f0d-15434820715f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="http">
+      <UniqueIdentifier>{9d112aa6-9651-4588-a036-ab59cc8ee2dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Qry">
+      <UniqueIdentifier>{37675f27-8f9d-424c-ae9d-5d5ee27ff5b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MakeOrder">
+      <UniqueIdentifier>{80069290-3ed1-4185-8e2e-2131d73f3211}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hyperlink">
+      <UniqueIdentifier>{1556f62e-6ed0-4dda-802b-bbd07e7e9146}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RealTimeDataDisp">
+      <UniqueIdentifier>{269f6877-28b4-4e4b-bed9-1ebf50abb3ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AccountStatusBar">
+      <UniqueIdentifier>{abd209c7-d37c-45f5-8728-a7df2c6311cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LocalMessageEvent">
+      <UniqueIdentifier>{bae67c8c-774f-4cb9-9f57-16a6d399e63e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StrategyWnd">
+      <UniqueIdentifier>{eb3d872e-46d2-4757-b566-3e2480b0f159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SinaDataQuote">
+      <UniqueIdentifier>{a5bd79e3-32f8-49b3-8bc9-b48649b0a597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TradeSituationWnd">
+      <UniqueIdentifier>{db684a41-663f-4f3b-9872-4ae9a13b2a96}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl\CellRange.h">
+      <Filter>GridCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl\GridCell.h">
+      <Filter>GridCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl\GridCellBase.h">
+      <Filter>GridCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl\GridCtrl.h">
+      <Filter>GridCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl\GridDropTarget.h">
+      <Filter>GridCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl\InPlaceEdit.h">
+      <Filter>GridCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl\MemDC.h">
+      <Filter>GridCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl\TitleTip.h">
+      <Filter>GridCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="Login\LoginDlg.h">
+      <Filter>Login</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShowInstrument\ShowInstrumentsView.h">
+      <Filter>ShowInstruments</Filter>
+    </ClInclude>
+    <ClInclude Include="MarketDataView\SHFE_INEView.h">
+      <Filter>MarketDataView</Filter>
+    </ClInclude>
+    <ClInclude Include="MarketDataView\DCEView.h">
+      <Filter>MarketDataView</Filter>
+    </ClInclude>
+    <ClInclude Include="MarketDataView\CZCEView.h">
+      <Filter>MarketDataView</Filter>
+    </ClInclude>
+    <ClInclude Include="http\HttpDataEntry.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\HttpDataSource.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\HttpHelper.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="Qry\QryCommissionRate.h">
+      <Filter>Qry</Filter>
+    </ClInclude>
+    <ClInclude Include="Qry\QryExchangeRateDlg.h">
+      <Filter>Qry</Filter>
+    </ClInclude>
+    <ClInclude Include="Qry\QryOrderCommRate.h">
+      <Filter>Qry</Filter>
+    </ClInclude>
+    <ClInclude Include="Qry\QryMainContractDlg.h">
+      <Filter>Qry</Filter>
+    </ClInclude>
+    <ClInclude Include="Qry\QryInstrumentMarginRateDlg.h">
+      <Filter>Qry</Filter>
+    </ClInclude>
+    <ClInclude Include="MakeOrder\MakeOrderBoardPane.h">
+      <Filter>MakeOrder</Filter>
+    </ClInclude>
+    <ClInclude Include="MakeOrder\StandardMakeOrderBoard.h">
+      <Filter>MakeOrder</Filter>
+    </ClInclude>
+    <ClInclude Include="MarketDataView\MarketDataGridCtrl.h">
+      <Filter>MarketDataView</Filter>
+    </ClInclude>
+    <ClInclude Include="MakeOrder\CancelOrderDlg.h">
+      <Filter>MakeOrder</Filter>
+    </ClInclude>
+    <ClInclude Include="MakeOrder\ClosePositionDlg.h">
+      <Filter>MakeOrder</Filter>
+    </ClInclude>
+    <ClInclude Include="MakeOrder\RemoveParkedOrderActionDlg.h">
+      <Filter>MakeOrder</Filter>
+    </ClInclude>
+    <ClInclude Include="MakeOrder\RemoveParkedOrderDlg.h">
+      <Filter>MakeOrder</Filter>
+    </ClInclude>
+    <ClInclude Include="Hyperlink\ExchangeHyperlinkDlg.h">
+      <Filter>Hyperlink</Filter>
+    </ClInclude>
+    <ClInclude Include="RealTimeDataDisp\DrawBuySellPanel.h">
+      <Filter>RealTimeDataDisp</Filter>
+    </ClInclude>
+    <ClInclude Include="RealTimeDataDisp\DrawKLineImagePanel.h">
+      <Filter>RealTimeDataDisp</Filter>
+    </ClInclude>
+    <ClInclude Include="RealTimeDataDisp\RealtimePriceDlg.h">
+      <Filter>RealTimeDataDisp</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountStatusBar\AccountStatusBar.h">
+      <Filter>AccountStatusBar</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalMessageEvent\LocalMessage.h">
+      <Filter>LocalMessageEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalMessageEvent\LocalMessageEventHandle.h">
+      <Filter>LocalMessageEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="StrategyWnd\StrategyMsgView.h">
+      <Filter>StrategyWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="StrategyWnd\StrategyStatusView.h">
+      <Filter>StrategyWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="StrategyWnd\StrategyView.h">
+      <Filter>StrategyWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="StrategyWnd\ViewTree.h">
+      <Filter>StrategyWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="StrategyWnd\StrategyTree.h">
+      <Filter>StrategyWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="Doc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MarketDataView\CFFEXView.h">
+      <Filter>MarketDataView</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MarketDataView\ConcurrentQueue.h">
+      <Filter>MarketDataView</Filter>
+    </ClInclude>
+    <ClInclude Include="RealTimeDataDisp\StringHelper.h">
+      <Filter>RealTimeDataDisp</Filter>
+    </ClInclude>
+    <ClInclude Include="SinaDataQuote\SinaDataQuote.h">
+      <Filter>SinaDataQuote</Filter>
+    </ClInclude>
+    <ClInclude Include="TradeSituationWnd\CustomGridCtrl.h">
+      <Filter>TradeSituationWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="TradeSituationWnd\GridCtrlCloseTradeList.h">
+      <Filter>TradeSituationWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="TradeSituationWnd\GridCtrlConditionOrderList.h">
+      <Filter>TradeSituationWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="TradeSituationWnd\GridCtrlOrderList.h">
+      <Filter>TradeSituationWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="TradeSituationWnd\GridCtrlParkedOrderActionList.h">
+      <Filter>TradeSituationWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="TradeSituationWnd\GridCtrlParkedOrderList.h">
+      <Filter>TradeSituationWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="TradeSituationWnd\GridCtrlPositionDetailList.h">
+      <Filter>TradeSituationWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="TradeSituationWnd\GridCtrlPositionList.h">
+      <Filter>TradeSituationWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="TradeSituationWnd\GridCtrlTradeList.h">
+      <Filter>TradeSituationWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="TradeSituationWnd\GridCtrlUnfilledOrderList.h">
+      <Filter>TradeSituationWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="TradeSituationWnd\TradeSituationWnd.h">
+      <Filter>TradeSituationWnd</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCtrl\GridCell.cpp">
+      <Filter>GridCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCtrl\GridCellBase.cpp">
+      <Filter>GridCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCtrl\GridCtrl.cpp">
+      <Filter>GridCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCtrl\GridDropTarget.cpp">
+      <Filter>GridCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCtrl\InPlaceEdit.cpp">
+      <Filter>GridCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCtrl\TitleTip.cpp">
+      <Filter>GridCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="Login\LoginDlg.cpp">
+      <Filter>Login</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowInstrument\ShowInstrumentsView.cpp">
+      <Filter>ShowInstruments</Filter>
+    </ClCompile>
+    <ClCompile Include="MarketDataView\SHFE_INEView.cpp">
+      <Filter>MarketDataView</Filter>
+    </ClCompile>
+    <ClCompile Include="MarketDataView\DCEView.cpp">
+      <Filter>MarketDataView</Filter>
+    </ClCompile>
+    <ClCompile Include="MarketDataView\CZCEView.cpp">
+      <Filter>MarketDataView</Filter>
+    </ClCompile>
+    <ClCompile Include="http\HttpDataEntry.cpp">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="http\HttpDataSource.cpp">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="http\HttpHelper.cpp">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="Qry\QryCommissionRate.cpp">
+      <Filter>Qry</Filter>
+    </ClCompile>
+    <ClCompile Include="Qry\QryExchangeRateDlg.cpp">
+      <Filter>Qry</Filter>
+    </ClCompile>
+    <ClCompile Include="Qry\QryOrderCommRate.cpp">
+      <Filter>Qry</Filter>
+    </ClCompile>
+    <ClCompile Include="Qry\QryMainContractDlg.cpp">
+      <Filter>Qry</Filter>
+    </ClCompile>
+    <ClCompile Include="Qry\QryInstrumentMarginRateDlg.cpp">
+      <Filter>Qry</Filter>
+    </ClCompile>
+    <ClCompile Include="MakeOrder\MakeOrderBoardPane.cpp">
+      <Filter>MakeOrder</Filter>
+    </ClCompile>
+    <ClCompile Include="MakeOrder\StandardMakeOrderBoard.cpp">
+      <Filter>MakeOrder</Filter>
+    </ClCompile>
+    <ClCompile Include="MarketDataView\MarketDataGridCtrl.cpp">
+      <Filter>MarketDataView</Filter>
+    </ClCompile>
+    <ClCompile Include="MakeOrder\CancelOrderDlg.cpp">
+      <Filter>MakeOrder</Filter>
+    </ClCompile>
+    <ClCompile Include="MakeOrder\ClosePositionDlg.cpp">
+      <Filter>MakeOrder</Filter>
+    </ClCompile>
+    <ClCompile Include="MakeOrder\RemoveParkedOrderActionDlg.cpp">
+      <Filter>MakeOrder</Filter>
+    </ClCompile>
+    <ClCompile Include="MakeOrder\RemoveParkedOrderDlg.cpp">
+      <Filter>MakeOrder</Filter>
+    </ClCompile>
+    <ClCompile Include="Hyperlink\ExchangeHyperlinkDlg.cpp">
+      <Filter>Hyperlink</Filter>
+    </ClCompile>
+    <ClCompile Include="RealTimeDataDisp\DrawBuySellPanel.cpp">
+      <Filter>RealTimeDataDisp</Filter>
+    </ClCompile>
+    <ClCompile Include="RealTimeDataDisp\DrawKLineImagePanel.cpp">
+      <Filter>RealTimeDataDisp</Filter>
+    </ClCompile>
+    <ClCompile Include="RealTimeDataDisp\RealtimePriceDlg.cpp">
+      <Filter>RealTimeDataDisp</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountStatusBar\AccountStatusBar.cpp">
+      <Filter>AccountStatusBar</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalMessageEvent\LocalMessageEventHandle.cpp">
+      <Filter>LocalMessageEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="StrategyWnd\StrategyMsgView.cpp">
+      <Filter>StrategyWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="StrategyWnd\StrategyStatusView.cpp">
+      <Filter>StrategyWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="StrategyWnd\StrategyView.cpp">
+      <Filter>StrategyWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="StrategyWnd\ViewTree.cpp">
+      <Filter>StrategyWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="StrategyWnd\StrategyTree.cpp">
+      <Filter>StrategyWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="Doc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MarketDataView\CFFEXView.cpp">
+      <Filter>MarketDataView</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SinaDataQuote\SinaDataQuote.cpp">
+      <Filter>SinaDataQuote</Filter>
+    </ClCompile>
+    <ClCompile Include="TradeSituationWnd\CustomGridCtrl.cpp">
+      <Filter>TradeSituationWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="TradeSituationWnd\GridCtrlCloseTradeList.cpp">
+      <Filter>TradeSituationWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="TradeSituationWnd\GridCtrlConditionOrderList.cpp">
+      <Filter>TradeSituationWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="TradeSituationWnd\GridCtrlOrderList.cpp">
+      <Filter>TradeSituationWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="TradeSituationWnd\GridCtrlParkedOrderActionList.cpp">
+      <Filter>TradeSituationWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="TradeSituationWnd\GridCtrlParkedOrderList.cpp">
+      <Filter>TradeSituationWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="TradeSituationWnd\GridCtrlPositionDetailList.cpp">
+      <Filter>TradeSituationWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="TradeSituationWnd\GridCtrlPositionList.cpp">
+      <Filter>TradeSituationWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="TradeSituationWnd\GridCtrlTradeList.cpp">
+      <Filter>TradeSituationWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="TradeSituationWnd\GridCtrlUnfilledOrderList.cpp">
+      <Filter>TradeSituationWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="TradeSituationWnd\TradeSituationWnd.cpp">
+      <Filter>TradeSituationWnd</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="UI.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\file_view.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\file_view_hc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\class_view.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\class_view_hc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\fileview.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\fileview_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\classview.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\classview_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\explorer.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\explorer_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\sort.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\sort_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\menuimages.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\menuimages_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\output_wnd.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\output_wnd_hc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\properties_wnd.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\properties_wnd_hc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\properties.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\properties_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="UserImages.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ShowInstrumentsDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ui.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\MFC.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\UIDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\UI.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1CB63EBD-7A36-4088-9537-6C630C16AF2C}</ProjectGuid>
+    <RootNamespace>UI</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CURL_STATICLIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>false</SDLCheck>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <AdditionalIncludeDirectories>../../libcurl/include/curl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>../Debug/Interface.lib;../Debug/Tool.lib;../Debug/ServiceLayer.lib;../../libcurl/lib/libcurl_a_debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../libcurl/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AccountStatusBar\AccountStatusBar.h" />
+    <ClInclude Include="App.h" />
+    <ClInclude Include="ChildFrm.h" />
+    <ClInclude Include="Doc.h" />
+    <ClInclude Include="GlobalMgr.h" />
+    <ClInclude Include="GridCtrl\CellRange.h" />
+    <ClInclude Include="GridCtrl\GridCell.h" />
+    <ClInclude Include="GridCtrl\GridCellBase.h" />
+    <ClInclude Include="GridCtrl\GridCtrl.h" />
+    <ClInclude Include="GridCtrl\GridDropTarget.h" />
+    <ClInclude Include="GridCtrl\InPlaceEdit.h" />
+    <ClInclude Include="GridCtrl\MemDC.h" />
+    <ClInclude Include="GridCtrl\TitleTip.h" />
+    <ClInclude Include="http\HttpDataEntry.h" />
+    <ClInclude Include="http\HttpDataSource.h" />
+    <ClInclude Include="http\HttpHelper.h" />
+    <ClInclude Include="Hyperlink\ExchangeHyperlinkDlg.h" />
+    <ClInclude Include="LocalMessageEvent\LocalMessage.h" />
+    <ClInclude Include="LocalMessageEvent\LocalMessageEventHandle.h" />
+    <ClInclude Include="Login\LoginDlg.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="MakeOrder\CancelOrderDlg.h" />
+    <ClInclude Include="MakeOrder\ClosePositionDlg.h" />
+    <ClInclude Include="MakeOrder\MakeOrderBoardPane.h" />
+    <ClInclude Include="MakeOrder\RemoveParkedOrderActionDlg.h" />
+    <ClInclude Include="MakeOrder\RemoveParkedOrderDlg.h" />
+    <ClInclude Include="MakeOrder\StandardMakeOrderBoard.h" />
+    <ClInclude Include="MarketDataView\CFFEXView.h" />
+    <ClInclude Include="MarketDataView\ConcurrentQueue.h" />
+    <ClInclude Include="MarketDataView\CZCEView.h" />
+    <ClInclude Include="MarketDataView\DCEView.h" />
+    <ClInclude Include="MarketDataView\MarketDataGridCtrl.h" />
+    <ClInclude Include="MarketDataView\SHFE_INEView.h" />
+    <ClInclude Include="Qry\QryCommissionRate.h" />
+    <ClInclude Include="Qry\QryExchangeRateDlg.h" />
+    <ClInclude Include="Qry\QryInstrumentMarginRateDlg.h" />
+    <ClInclude Include="Qry\QryMainContractDlg.h" />
+    <ClInclude Include="Qry\QryOrderCommRate.h" />
+    <ClInclude Include="RealTimeDataDisp\DrawBuySellPanel.h" />
+    <ClInclude Include="RealTimeDataDisp\DrawKLineImagePanel.h" />
+    <ClInclude Include="RealTimeDataDisp\RealtimePriceDlg.h" />
+    <ClInclude Include="RealTimeDataDisp\StringHelper.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ShowInstrument\ShowInstrumentsView.h" />
+    <ClInclude Include="SinaDataQuote\SinaDataQuote.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="StrategyWnd\StrategyMsgView.h" />
+    <ClInclude Include="StrategyWnd\StrategyStatusView.h" />
+    <ClInclude Include="StrategyWnd\StrategyTree.h" />
+    <ClInclude Include="StrategyWnd\StrategyView.h" />
+    <ClInclude Include="StrategyWnd\ViewTree.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TradeSituationWnd\CustomGridCtrl.h" />
+    <ClInclude Include="TradeSituationWnd\GridCtrlCloseTradeList.h" />
+    <ClInclude Include="TradeSituationWnd\GridCtrlConditionOrderList.h" />
+    <ClInclude Include="TradeSituationWnd\GridCtrlOrderList.h" />
+    <ClInclude Include="TradeSituationWnd\GridCtrlParkedOrderActionList.h" />
+    <ClInclude Include="TradeSituationWnd\GridCtrlParkedOrderList.h" />
+    <ClInclude Include="TradeSituationWnd\GridCtrlPositionDetailList.h" />
+    <ClInclude Include="TradeSituationWnd\GridCtrlPositionList.h" />
+    <ClInclude Include="TradeSituationWnd\GridCtrlTradeList.h" />
+    <ClInclude Include="TradeSituationWnd\GridCtrlUnfilledOrderList.h" />
+    <ClInclude Include="TradeSituationWnd\TradeSituationWnd.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AccountStatusBar\AccountStatusBar.cpp" />
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="ChildFrm.cpp" />
+    <ClCompile Include="Doc.cpp" />
+    <ClCompile Include="GlobalMgr.cpp" />
+    <ClCompile Include="GridCtrl\GridCell.cpp" />
+    <ClCompile Include="GridCtrl\GridCellBase.cpp" />
+    <ClCompile Include="GridCtrl\GridCtrl.cpp" />
+    <ClCompile Include="GridCtrl\GridDropTarget.cpp" />
+    <ClCompile Include="GridCtrl\InPlaceEdit.cpp" />
+    <ClCompile Include="GridCtrl\TitleTip.cpp" />
+    <ClCompile Include="http\HttpDataEntry.cpp" />
+    <ClCompile Include="http\HttpDataSource.cpp" />
+    <ClCompile Include="http\HttpHelper.cpp" />
+    <ClCompile Include="Hyperlink\ExchangeHyperlinkDlg.cpp" />
+    <ClCompile Include="LocalMessageEvent\LocalMessageEventHandle.cpp" />
+    <ClCompile Include="Login\LoginDlg.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="MakeOrder\CancelOrderDlg.cpp" />
+    <ClCompile Include="MakeOrder\ClosePositionDlg.cpp" />
+    <ClCompile Include="MakeOrder\MakeOrderBoardPane.cpp" />
+    <ClCompile Include="MakeOrder\RemoveParkedOrderActionDlg.cpp" />
+    <ClCompile Include="MakeOrder\RemoveParkedOrderDlg.cpp" />
+    <ClCompile Include="MakeOrder\StandardMakeOrderBoard.cpp" />
+    <ClCompile Include="MarketDataView\CFFEXView.cpp" />
+    <ClCompile Include="MarketDataView\CZCEView.cpp" />
+    <ClCompile Include="MarketDataView\DCEView.cpp" />
+    <ClCompile Include="MarketDataView\MarketDataGridCtrl.cpp" />
+    <ClCompile Include="MarketDataView\SHFE_INEView.cpp" />
+    <ClCompile Include="Qry\QryCommissionRate.cpp" />
+    <ClCompile Include="Qry\QryExchangeRateDlg.cpp" />
+    <ClCompile Include="Qry\QryInstrumentMarginRateDlg.cpp" />
+    <ClCompile Include="Qry\QryMainContractDlg.cpp" />
+    <ClCompile Include="Qry\QryOrderCommRate.cpp" />
+    <ClCompile Include="RealTimeDataDisp\DrawBuySellPanel.cpp" />
+    <ClCompile Include="RealTimeDataDisp\DrawKLineImagePanel.cpp" />
+    <ClCompile Include="RealTimeDataDisp\RealtimePriceDlg.cpp" />
+    <ClCompile Include="ShowInstrument\ShowInstrumentsView.cpp" />
+    <ClCompile Include="SinaDataQuote\SinaDataQuote.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="StrategyWnd\StrategyMsgView.cpp" />
+    <ClCompile Include="StrategyWnd\StrategyStatusView.cpp" />
+    <ClCompile Include="StrategyWnd\StrategyTree.cpp" />
+    <ClCompile Include="StrategyWnd\StrategyView.cpp" />
+    <ClCompile Include="StrategyWnd\ViewTree.cpp" />
+    <ClCompile Include="TradeSituationWnd\CustomGridCtrl.cpp" />
+    <ClCompile Include="TradeSituationWnd\GridCtrlCloseTradeList.cpp" />
+    <ClCompile Include="TradeSituationWnd\GridCtrlConditionOrderList.cpp" />
+    <ClCompile Include="TradeSituationWnd\GridCtrlOrderList.cpp" />
+    <ClCompile Include="TradeSituationWnd\GridCtrlParkedOrderActionList.cpp" />
+    <ClCompile Include="TradeSituationWnd\GridCtrlParkedOrderList.cpp" />
+    <ClCompile Include="TradeSituationWnd\GridCtrlPositionDetailList.cpp" />
+    <ClCompile Include="TradeSituationWnd\GridCtrlPositionList.cpp" />
+    <ClCompile Include="TradeSituationWnd\GridCtrlTradeList.cpp" />
+    <ClCompile Include="TradeSituationWnd\GridCtrlUnfilledOrderList.cpp" />
+    <ClCompile Include="TradeSituationWnd\TradeSituationWnd.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="UI.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\classview.bmp" />
+    <Image Include="res\classview_hc.bmp" />
+    <Image Include="res\class_view.ico" />
+    <Image Include="res\class_view_hc.ico" />
+    <Image Include="res\explorer.bmp" />
+    <Image Include="res\explorer_hc.bmp" />
+    <Image Include="res\fileview.bmp" />
+    <Image Include="res\fileview_hc.bmp" />
+    <Image Include="res\file_view.ico" />
+    <Image Include="res\file_view_hc.ico" />
+    <Image Include="res\menuimages.bmp" />
+    <Image Include="res\menuimages_hc.bmp" />
+    <Image Include="res\MFC.ico" />
+    <Image Include="res\UIDoc.ico" />
+    <Image Include="res\output_wnd.ico" />
+    <Image Include="res\output_wnd_hc.ico" />
+    <Image Include="res\properties.bmp" />
+    <Image Include="res\properties_hc.bmp" />
+    <Image Include="res\properties_wnd.ico" />
+    <Image Include="res\properties_wnd_hc.ico" />
+    <Image Include="res\ShowInstrumentsDoc.ico" />
+    <Image Include="res\sort.bmp" />
+    <Image Include="res\sort_hc.bmp" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\Toolbar256.bmp" />
+    <Image Include="res\ui.ico" />
+    <Image Include="UserImages.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\UI.rc2" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
