@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root  URL="http://www.simnow.com.cn/product.action">
+	<MyInstruments>
+		<item>ag1903/SHFE</item>
+		<item>T1906/CFFEX</item>
+		<item>a1911/DCE</item>
+		<item>CF905/CZCE</item>
+	</MyInstruments>
+	<m_ListCtrlColumns>
+		<sequence _key="ListCtrl用户信息">
+            <item Name="用户ID" Width="64"  Id="105"/>
+            <item Name="经纪公司ID" Width="64" Id="104"/>
+            <item Name="交易日" Width="100" Id="102"/>
+            <item Name="登录时间" Width="100" Id="103"/>
+            <item Name="交易所时间" Width="100" Id="110"/>
+			<item Name="交易系统名称" Width="64"  Id="106"/>
+            <item Name="前置编号" Width="64" Id="107"/>
+            <item Name="会话编号" Width="100" Id="108"/>
+            <item Name="最大报单引用" Width="100" Id="109"/>
+        </sequence>
+		<sequence _key="ListCtrl合约信息">
+            <item Name="合约代码" Width="64"  Id="100"/>
+            <item Name="交易所代码" Width="64" Id="101"/>
+            <item Name="合约名称" Width="64" Id="102"/>
+            <item Name="合约在交易所的代码" Width="100" Id="103"/>
+            <item Name="产品代码" Width="64" Id="104"/>
+			<item Name="产品类型" Width="64"  Id="105"/>
+            <item Name="交割年份" Width="64" Id="106"/>
+            <item Name="交割月" Width="64" Id="107"/>
+            <item Name="市价单最大下单量" Width="100" Id="108"/>
+            <item Name="市价单最小下单量" Width="100" Id="109"/>
+			<item Name="限价单最大下单量" Width="100"  Id="110"/>
+            <item Name="限价单最小下单量" Width="100" Id="111"/>
+            <item Name="合约数量乘数" Width="64" Id="112"/>
+            <item Name="最小变动价位" Width="64" Id="113"/>
+            <item Name="创建日" Width="64" Id="114"/>
+			<item Name="上市日" Width="64" Id="115"/>
+            <item Name="到期日" Width="64" Id="116"/>
+			<item Name="开始交割日" Width="64"  Id="117"/>
+            <item Name="结束交割日" Width="64" Id="118"/>
+            <item Name="合约生命周期状态" Width="64" Id="119"/>
+            <item Name="当前是否交易" Width="64" Id="120"/>
+            <item Name="持仓类型" Width="64" Id="121"/>
+			<item Name="持仓日期类型" Width="64" Id="122"/>
+			<item Name="多头保证金率" Width="64" Id="123"/>
+            <item Name="空头保证金率" Width="64" Id="124"/>
+			<item Name="是否使用大额单边保证金算法" Width="100"  Id="125"/>
+            <item Name="基础商品代码" Width="64" Id="126"/>
+            <item Name="执行价" Width="64" Id="127"/>
+            <item Name="期权类型" Width="64" Id="128"/>
+            <item Name="合约基础商品乘数" Width="100" Id="129"/>
+			<item Name="组合类型" Width="64" Id="130"/>
+        </sequence>
+        <sequence _key="ListCtrl报价表">
+            <item Name="合约" Width="60" />
+			<item Name="合约名" Width="100" />
+            <item Name="最新价" Width="60" />
+            <item Name="买一价" Width="60" />
+			<item Name="买一量" Width="60" />
+            <item Name="卖一价" Width="60" />
+            <item Name="卖一量" Width="60" />
+            <item Name="涨跌" Width="60" />
+            <item Name="涨跌幅" Width="60" />
+            <item Name="涨停价" Width="60" />
+            <item Name="跌停价" Width="60" />
+            <item Name="成交量" Width="60" />
+            <item Name="昨收盘" Width="60" />
+            <item Name="今开盘" Width="60" />
+            <item Name="最高价" Width="60" />
+            <item Name="最低价" Width="60" />
+			<item Name="今收盘" Width="60" />
+            <item Name="昨结算" Width="60" />
+			<item Name="结算价" Width="60" />
+			<item Name="交易所" Width="60" />
+			<item Name="行情更新时间" Width="100" />
+			<!--
+			<item Name="持仓量" Width="58" />
+            <item Name="成交额" Width="93" />
+            <item Name="现量" Width="44" />
+            <item Name="昨持仓量" Width="84" />
+            <item Name="当日均价" Width="84" />
+            <item Name="组合买价" Width="84" />
+            <item Name="组合买量" Width="84" />
+            <item Name="组合卖价" Width="84" />
+            <item Name="组合卖量" Width="84" />
+			-->		
+        </sequence>
+        <sequence _key="ListCtrl成交记录">
+            <item Name="合约" Width="60" Id="102"/>
+			<item Name="交易所" Width="60" Id="105"/>
+			<item Name="投保" Width="60" Id="114"/>
+            <item Name="买卖" Width="60" Id="107"/>
+            <item Name="开平" Width="60" Id="113"/>
+            <item Name="成交手数" Width="60" Id="116"/>
+            <item Name="成交价格" Width="60" Id="115"/>
+            <item Name="成交日期" Width="60" Id="117"/>
+            <item Name="成交时间" Width="60" Id="118"/>
+			<item Name="报单编号" Width="60" Id="108"/>
+			<item Name="成交编号" Width="60" Id="106"/>
+			<!--
+			<item Name="成交类型" Width="64" />
+			<item Name="手续费" Width="52" />
+			-->
+        </sequence>
+        <sequence _key="ListCtrl持仓">
+            <item Name="合约" Width="60" Id="100"/>
+			<item Name="投保" Width="60" Id="104"/>
+            <item Name="买卖" Width="60" Id="103"/>
+			<item Name="开仓均价" Width="100" Id="147"/>
+			<item Name="持仓盈亏" Width="100" Id="125"/>
+			<item Name="浮动盈亏" Width="100" Id="146"/>
+			<item Name="持仓" Width="50" Id="107"/>
+			<item Name="昨日持仓" Width="60" Id="106"/>
+			<item Name="今日持仓" Width="60" Id="137"/>
+			<item Name="占用的保证金" Width="100" Id="118"/>
+			<item Name="本次结算价" Width="80" Id="127"/>
+			<!--
+				暂未使用的放置与此
+			<item Name="平仓盈亏" Width="60" Id="124"/>
+			<item Name="上次结算价" Width="80" Id="126"/>
+			<item Name="交易所保证金" Width="80" Id="131"/>
+			<item Name="持仓成本" Width="60" Id="116"/>
+			<item Name="开仓成本" Width="60" Id="130"/>
+			<item Name="持仓日期类型" Width="60" Id="105"/>
+			<item Name="多头冻结" Width="50" Id="108"/>
+			<item Name="空头冻结" Width="50" Id="109"/>
+			<item Name="多头开仓冻结金额" Width="60" Id="110"/>
+			<item Name="空头开仓冻结金额" Width="60" Id="111"/>
+			<item Name="开仓量" Width="50" Id="112"/>
+			<item Name="平仓量" Width="50" Id="113"/>
+			<item Name="开仓金额" Width="50" Id="114"/>
+			<item Name="平仓金额" Width="50" Id="115"/>
+			<item Name="上次占用的保证金" Width="60" Id="117"/>
+			<item Name="冻结的保证金" Width="60" Id="119"/>
+			<item Name="冻结的资金" Width="60" Id="120"/>
+			<item Name="冻结的手续费" Width="60" Id="121"/>
+			<item Name="资金差额" Width="50" Id="122"/>
+			<item Name="手续费" Width="50" Id="123"/>
+			<item Name="交易日" Width="50" Id="128"/>
+			<item Name="结算编号" Width="50" Id="129"/>
+			<item Name="组合成交形成的持仓" Width="60" Id="132"/>
+			<item Name="组合多头冻结" Width="60" Id="133"/>
+			<item Name="组合空头冻结" Width="60" Id="134"/>
+			<item Name="逐日盯市平仓盈亏" Width="60" Id="135"/>
+			<item Name="逐笔对冲平仓盈亏" Width="60" Id="136"/>
+			<item Name="保证金率" Width="50" Id="138"/>
+			<item Name="保证金率(按手数)" Width="60" Id="139"/>
+			<item Name="执行冻结" Width="50" Id="140"/>
+			<item Name="执行冻结金额" Width="60" Id="141"/>
+			<item Name="放弃执行冻结" Width="60" Id="142"/>
+			<item Name="交易所代码" Width="50" Id="143"/>
+			<item Name="执行冻结的昨仓" Width="60" Id="144"/>
+			<item Name="投资单元代码" Width="60" Id="145"/>
+			-->
+        </sequence>
+		<sequence _key="ListCtrl持仓明细">
+            <item Name="合约" Width="60" Id="100"/>
+            <item Name="买卖" Width="60" Id="103"/>
+			<item Name="开仓均价" Width="80" Id="108"/>
+			<item Name="持仓量" Width="60" Id="107"/>
+			<item Name="开仓日期" Width="100" Id="105"/>
+			<item Name="逐日盯市持仓盈亏" Width="120" Id="116"/>
+			<item Name="逐笔对冲持仓盈亏" Width="120" Id="117"/>
+			<item Name="昨结算价" Width="80" Id="122"/>
+			<item Name="结算价" Width="80" Id="123"/>
+			<item Name="成交编号" Width="80" Id="106"/>
+			<!--
+			<item Name="投资者保证金" Width="100" Id="118"/>
+			<item Name="平仓量" Width="80" Id="124"/>
+			<item Name="平仓金额" Width="80" Id="125"/>
+			<item Name="逐日盯市平仓盈亏" Width="120" Id="114"/>
+			<item Name="逐笔对冲平仓盈亏" Width="120" Id="115"/>
+			-->
+        </sequence>
+		<sequence _key="ListCtrl平仓列表">
+            <item Name="合约" Width="60"/>
+            <item Name="买卖" Width="60"/>
+			<item Name="平仓量" Width="80" />
+			<item Name="开仓价" Width="80" />
+			<item Name="平仓价" Width="80" />
+			<item Name="平仓盈亏" Width="100"/>
+			<item Name="开仓日期" Width="100" />
+			<item Name="成交编号" Width="100" />TH
+			<!--
+			<item Name="投资者保证金" Width="100" Id="118"/>
+			-->
+        </sequence>
+        <sequence _key="ListCtrl合约列表">
+            <item Name="交易所" Width="52" />
+            <item Name="品种代码" Width="64" />
+            <item Name="合约" Width="52" />
+            <item Name="合约名" Width="82" />
+            <item Name="合约乘数" Width="64" />
+            <item Name="最小价格变动单位" Width="112" />
+            <item Name="品种类型" Width="64" />
+            <item Name="最后日期" Width="64" />
+            <item Name="多头保证金率" Width="88" />
+            <item Name="空头保证金率" Width="88" />
+            <item Name="开仓手续费" Width="76" />
+            <item Name="平仓手续费" Width="76" />
+            <item Name="平今手续费" Width="76" />
+            <item Name="开仓手续费率" Width="88" />
+            <item Name="平仓手续费率" Width="88" />
+            <item Name="平今手续费率" Width="88" />
+            <item Name="多头保证金费" Width="116" />
+            <item Name="空头保证金费" Width="116" />
+        </sequence>
+        <sequence _key="ListCtrl所有委托单">
+            <item Name="合约" Width="60" Id="102"/>
+			<item Name="方向" Width="50" Id="106"/>
+			<item Name="开平" Width="50" Id="107"/>
+			<item Name="报价类型" Width="100" Id="105"/>
+			<item Name="报单价格" Width="60" Id="109"/>
+			<item Name="报单手数" Width="60" Id="110"/>
+			<item Name="成交手数" Width="100" Id="136"/>
+			<item Name="未成交" Width="60" Id="137"/>
+			<item Name="报单状态" Width="80" Id="134"/>
+			<item Name="状态信息" Width="150" Id="150"/>
+			<item Name="报单日期" Width="60" Id="138"/>
+			<item Name="报单时间" Width="60" Id="139"/>
+			<item Name="触发条件" Width="100" Id="115"/>
+			<item Name="触发价" Width="60" Id="116"/>
+			<item Name="交易所" Width="60" Id="122"/>
+			<item Name="报单编号" Width="60" Id="132"/>
+			<!--
+			<item Name="报单类型" Width="60" Id="135"/>
+			<item Name="成交量类型" Width="100" Id="113"/>
+			<item Name="有效期类型" Width="100" Id="111"/>
+			<item Name="GDT日期" Width="80" Id="112"/>
+			<item Name="结算编号" Width="60" Id="131"/>
+			<item Name="报单提交状态" Width="150" Id="128"/>
+			-->
+        </sequence>
+        <sequence _key="ListCtrl未成交单">
+            <item Name="报单编号" Width="64" />
+            <item Name="合约" Width="52" />
+            <item Name="买卖" Width="40" />
+            <item Name="开平" Width="40" />
+            <item Name="未成交手数" Width="76" />
+            <item Name="报单价格" Width="64" />
+            <item Name="报单时间" Width="64" />
+            <item Name="冻结保证金" Width="76" />
+            <item Name="冻结手续费" Width="76" />
+        </sequence>
+        <sequence _key="ListCtrl预埋单列表">
+            <item Name="合约" Width="60" />
+			<item Name="交易所" Width="50" />
+            <item Name="买卖" Width="50" />
+            <item Name="开平" Width="50" />
+			<item Name="报价类型" Width="80" />
+            <item Name="报单价格" Width="80" />
+            <item Name="报单手数" Width="80" />
+			<item Name="触发条件" Width="80" />
+            <item Name="触发价" Width="80" />
+			<item Name="状态" Width="50" />
+			<item Name="错误信息" Width="100" />
+            <item Name="预埋单编号" Width="80" />
+        </sequence>
+		<sequence _key="ListCtrl预埋撤单列表">
+            <item Name="合约" Width="60" />
+			<item Name="交易所" Width="50" />
+            <item Name="价格" Width="60" />
+            <item Name="交易量" Width="60" />
+			<item Name="状态" Width="50" />
+			<item Name="错误信息" Width="100" />
+			<item Name="报单编号" Width="80" />
+            <item Name="预埋撤单编号" Width="100" />
+        </sequence>
+		<sequence _key="ListCtrl条件单列表">
+            <item Name="合约" Width="60" Id="102"/>
+			<item Name="本地类型" Width="80" Id="163"/>
+			<item Name="方向" Width="50" Id="106"/>
+			<item Name="开平" Width="50" Id="107"/>
+			<item Name="报价类型" Width="100" Id="105"/>
+			<item Name="报单价格" Width="60" Id="109"/>
+			<item Name="报单手数" Width="60" Id="110"/>
+			<item Name="成交手数" Width="100" Id="136"/>
+			<item Name="未成交" Width="60" Id="137"/>
+			<item Name="报单状态" Width="80" Id="134"/>
+			<item Name="状态信息" Width="150" Id="150"/>
+			<item Name="报单日期" Width="60" Id="138"/>
+			<item Name="报单时间" Width="60" Id="139"/>
+			<item Name="触发条件" Width="100" Id="115"/>
+			<item Name="触发价" Width="60" Id="116"/>
+			<item Name="交易所" Width="60" Id="122"/>
+			<item Name="报单编号" Width="60" Id="132"/>
+        </sequence>
+        <sequence _key="ListCtrl组合持仓">
+            <item Name="合约" Width="40" />
+            <item Name="买卖" Width="40" />
+            <item Name="手数" Width="40" />
+            <item Name="开仓均价" Width="64" />
+            <item Name="投保" Width="40" />
+        </sequence>
+        <sequence _key="资金账户">
+            <item Name="静态权益" Width="64" />
+            <item Name="平仓盈亏" Width="64" />
+            <item Name="持仓盈亏" Width="64" />
+            <item Name="动态权益" Width="64" />
+            <item Name="占用保证金" Width="64" />
+            <item Name="下单冻结" Width="64" />
+            <item Name="可用资金" Width="64" />
+            <item Name="风险度" Width="68" />
+        </sequence>
+    </m_ListCtrlColumns>
+</root>
