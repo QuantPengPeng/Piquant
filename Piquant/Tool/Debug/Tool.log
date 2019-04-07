@@ -1,0 +1,639 @@
+﻿Build started 2019/4/6 17:30:47.
+     1>Project "C:\Users\Quant\Desktop\CTP_MFC\Project\Piquant\Tool\Tool.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D TOOL_EXPORTS /D _AFXDLL /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Tool.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /showIncludes /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         Note: including file: c:\users\quant\desktop\ctp_mfc\project\piquant\tool\stdafx.h
+         Note: including file:  c:\users\quant\desktop\ctp_mfc\project\piquant\tool\targetver.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\SDKDDKVer.h
+         Note: including file:  C:\Program Files (x86)\Windows Kits\8.1\Include\um\windows.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winapifamily.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\excpt.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sal.h
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ConcurrencySal.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vadefs.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdarg.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings_strict.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings_undef.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\driverspecs.h
+         Note: including file:       c:\program files (x86)\windows kits\8.1\include\shared\sdv_driverspecs.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ctype.h
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\kernelspecs.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\basetsd.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\guiddef.h
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:      c:\program files (x86)\windows kits\8.1\include\shared\pshpack4.h
+         Note: including file:      c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Note: including file:      c:\program files (x86)\windows kits\8.1\include\shared\pshpack4.h
+         Note: including file:      c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack4.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:      c:\program files (x86)\windows kits\8.1\include\shared\pshpack4.h
+         Note: including file:      c:\program files (x86)\windows kits\8.1\include\shared\pshpack2.h
+         Note: including file:      c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Note: including file:      c:\program files (x86)\windows kits\8.1\include\shared\pshpack2.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:      c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Note: including file:      c:\program files (x86)\windows kits\8.1\include\shared\pshpack8.h
+         Note: including file:      c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Note: including file:      c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\apiset.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ktmtypes.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\apisetcconv.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\processenv.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\fileapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\debugapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\utilapiset.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\handleapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\errhandlingapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\fibersapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\namedpipeapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\profileapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\heapapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\ioapiset.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\synchapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\interlockedapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\memoryapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\threadpoollegacyapiset.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\threadpoolapiset.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\bemapiset.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\jobapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\wow64apiset.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\libloaderapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\securitybaseapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\namespaceapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\systemtopologyapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\processtopologyapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\securityappcontainer.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\realtimeapiset.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\timezoneapi.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack4.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack4.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\tvout.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnls.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\datetimeapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\stringapiset.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnls.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\wincon.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\consoleapi.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\winver.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\verrsrc.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\winreg.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\reason.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnetwk.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wnnc.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\stralign.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\mcx.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\imm.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\ime_cmodes.h
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D TOOL_EXPORTS /D _AFXDLL /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Tool.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /showIncludes /analyze- /errorReport:prompt ConfigReader.cpp IniFile.cpp rwJson.cpp tinyxml\tinystr.cpp tinyxml\tinyxml.cpp tinyxml\tinyxmlerror.cpp tinyxml\tinyxmlparser.cpp Tool.cpp
+         Tool.cpp
+         tinyxmlparser.cpp
+         Note: including file: C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stddef.h
+         Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file: c:\users\quant\desktop\ctp_mfc\project\piquant\tool\tinyxml\tinyxml.h
+         Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\swprintf.inl
+         Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\limits.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\assert.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:  c:\users\quant\desktop\ctp_mfc\project\piquant\tool\tinyxml\tinystr.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\assert.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         tinyxmlerror.cpp
+         Note: including file: c:\users\quant\desktop\ctp_mfc\project\piquant\tool\tinyxml\tinyxml.h
+         Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\swprintf.inl
+         Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\limits.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\assert.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:  c:\users\quant\desktop\ctp_mfc\project\piquant\tool\tinyxml\tinystr.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\assert.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         tinyxml.cpp
+         Note: including file: c:\users\quant\desktop\ctp_mfc\project\piquant\tool\tinyxml\tinyxml.h
+         Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\swprintf.inl
+         Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\limits.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\assert.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:  c:\users\quant\desktop\ctp_mfc\project\piquant\tool\tinyxml\tinystr.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\assert.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         tinystr.cpp
+         Note: including file: c:\users\quant\desktop\ctp_mfc\project\piquant\tool\tinyxml\tinystr.h
+         Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\assert.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         rwJson.cpp
+         Note: including file: c:\users\quant\desktop\ctp_mfc\project\piquant\tool\rwJson.h
+         Note: including file:  c:\users\quant\desktop\ctp_mfc\project\piquant\tool\jsoncpp/json.h
+         Note: including file:   c:\users\quant\desktop\ctp_mfc\project\piquant\tool\jsoncpp\autolink.h
+         Note: including file:    c:\users\quant\desktop\ctp_mfc\project\piquant\tool\jsoncpp\config.h
+         Note: including file:    c:\users\quant\desktop\ctp_mfc\project\piquant\tool\jsoncpp\autolink.h
+         Note: including file:   c:\users\quant\desktop\ctp_mfc\project\piquant\tool\jsoncpp\value.h
+         Note: including file:    c:\users\quant\desktop\ctp_mfc\project\piquant\tool\jsoncpp\forwards.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\istream
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ostream
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ios
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocnum
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\climits
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\yvals.h
+         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xkeycheck.h
+         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\use_ansi.h
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\limits.h
+         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cmath
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h
+         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtgmath.h
+         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtr1common
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstdio
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h
+         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\swprintf.inl
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstdlib
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h
+         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\streambuf
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xiosbase
+         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocale
+         Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstring
+         Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept
+         Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\exception
+         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstddef
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstddef
+         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stddef.h
+         Note: including file:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\initializer_list
+         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\eh.h
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\malloc.h
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstring
+         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\limits
+         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ymath.h
+         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cfloat
+         Note: including file:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\float.h
+         Note: including file:                   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:                   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtwrn.h
+         Note: including file:                    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cwchar
+         Note: including file:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h
+         Note: including file:                   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:                   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wtime.inl
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\new
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility
+         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\utility
+         Note: including file:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iosfwd
+         Note: including file:                   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdbg.h
+         Note: including file:                    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\type_traits
+         Note: including file:                   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xrefwrap
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xatomic0.h
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\intrin.h
+         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\setjmp.h
+         Note: including file:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\immintrin.h
+         Note: including file:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wmmintrin.h
+         Note: including file:                   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\nmmintrin.h
+         Note: including file:                    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\smmintrin.h
+         Note: including file:                     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tmmintrin.h
+         Note: including file:                      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\pmmintrin.h
+         Note: including file:                       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\emmintrin.h
+         Note: including file:                        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmmintrin.h
+         Note: including file:                         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\mmintrin.h
+         Note: including file:                          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ammintrin.h
+         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\mm3dnow.h
+         Note: including file:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\typeinfo
+         Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocinfo
+         Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocinfo.h
+         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\locale.h
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xdebug
+         Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory
+         Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xfacet
+         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\system_error
+         Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cerrno
+         Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\errno.h
+         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\share.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\map
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtree
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tuple
+         Note: including file:   c:\users\quant\desktop\ctp_mfc\project\piquant\tool\jsoncpp\reader.h
+         Note: including file:    c:\users\quant\desktop\ctp_mfc\project\piquant\tool\jsoncpp\features.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\deque
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stack
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iostream
+         Note: including file:   c:\users\quant\desktop\ctp_mfc\project\piquant\tool\jsoncpp\writer.h
+         Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\fstream
+     1>c:\users\quant\desktop\ctp_mfc\project\piquant\tool\rwjson.cpp(91): warning C4018: '<' : signed/unsigned mismatch
+         IniFile.cpp
+         Note: including file: c:\users\quant\desktop\ctp_mfc\project\piquant\tool\.\inifile.h
+         Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\istream
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ostream
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ios
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocnum
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\climits
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\yvals.h
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xkeycheck.h
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\use_ansi.h
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\limits.h
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cmath
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtgmath.h
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtr1common
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstdio
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\swprintf.inl
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstdlib
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\streambuf
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xiosbase
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocale
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstring
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept
+         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\exception
+         Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstddef
+         Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstddef
+         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stddef.h
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\initializer_list
+         Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\eh.h
+         Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\malloc.h
+         Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstring
+         Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0
+         Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\limits
+         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ymath.h
+         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cfloat
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\float.h
+         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtwrn.h
+         Note: including file:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cwchar
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h
+         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wtime.inl
+         Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\new
+         Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility
+         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\utility
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iosfwd
+         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdbg.h
+         Note: including file:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\type_traits
+         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xrefwrap
+         Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xatomic0.h
+         Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\intrin.h
+         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\setjmp.h
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\immintrin.h
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wmmintrin.h
+         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\nmmintrin.h
+         Note: including file:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\smmintrin.h
+         Note: including file:                   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tmmintrin.h
+         Note: including file:                    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\pmmintrin.h
+         Note: including file:                     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\emmintrin.h
+         Note: including file:                      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmmintrin.h
+         Note: including file:                       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\mmintrin.h
+         Note: including file:                        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ammintrin.h
+         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\mm3dnow.h
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\typeinfo
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocinfo
+         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocinfo.h
+         Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\locale.h
+         Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xdebug
+         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xfacet
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\system_error
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cerrno
+         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\errno.h
+         Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\share.h
+         Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector
+         Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iostream
+         Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\fstream
+         Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\algorithm
+         Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\functional
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xfunctional
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tuple
+         ConfigReader.cpp
+         Note: including file: c:\users\quant\desktop\ctp_mfc\project\piquant\tool\ConfigReader.h
+         Note: including file:  c:\users\quant\desktop\ctp_mfc\project\piquant\tool\../ServiceLayer/ServerInfo.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\istream
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ostream
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ios
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocnum
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\climits
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\yvals.h
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xkeycheck.h
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\use_ansi.h
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\limits.h
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cmath
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtgmath.h
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtr1common
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstdio
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\swprintf.inl
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstdlib
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\streambuf
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xiosbase
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocale
+         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstring
+         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept
+         Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\exception
+         Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstddef
+         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstddef
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stddef.h
+         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\initializer_list
+         Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\eh.h
+         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\malloc.h
+         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstring
+         Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0
+         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\limits
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ymath.h
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cfloat
+         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\float.h
+         Note: including file:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtwrn.h
+         Note: including file:                   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cwchar
+         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h
+         Note: including file:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wtime.inl
+         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\new
+         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\utility
+         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iosfwd
+         Note: including file:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdbg.h
+         Note: including file:                   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\type_traits
+         Note: including file:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xrefwrap
+         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xatomic0.h
+         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\intrin.h
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\setjmp.h
+         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\immintrin.h
+         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wmmintrin.h
+         Note: including file:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\nmmintrin.h
+         Note: including file:                   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\smmintrin.h
+         Note: including file:                    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tmmintrin.h
+         Note: including file:                     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\pmmintrin.h
+         Note: including file:                      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\emmintrin.h
+         Note: including file:                       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmmintrin.h
+         Note: including file:                        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\mmintrin.h
+         Note: including file:                         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ammintrin.h
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\mm3dnow.h
+         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\typeinfo
+         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocinfo
+         Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocinfo.h
+         Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\locale.h
+         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xdebug
+         Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory
+         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xfacet
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\system_error
+         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cerrno
+         Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\errno.h
+         Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\share.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector
+         Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\map
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtree
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tuple
+     1>c:\users\quant\desktop\ctp_mfc\project\piquant\tool\configreader.h(40): warning C4251: 'ConfigReader::m_brokers' : class 'std::map<std::string,ServerInfo,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'ConfigReader'
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=ServerInfo
+                 ]
+     1>c:\users\quant\desktop\ctp_mfc\project\piquant\tool\configreader.h(41): warning C4251: 'ConfigReader::m_all_list_header' : class 'std::map<std::string,std::vector<ColumnInfo,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of class 'ConfigReader'
+                 with
+                 [
+                     _Ty=ColumnInfo
+         ,            _Kty=std::string
+                 ]
+     1>c:\users\quant\desktop\ctp_mfc\project\piquant\tool\configreader.h(42): warning C4251: 'ConfigReader::m_instruments' : class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'ConfigReader'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+         Note: including file: c:\users\quant\desktop\ctp_mfc\project\piquant\tool\tinyxml\tinystr.h
+         Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\assert.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file: c:\users\quant\desktop\ctp_mfc\project\piquant\tool\tinyxml\tinyxml.h
+         Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\assert.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:  c:\users\quant\desktop\ctp_mfc\project\piquant\tool\tinyxml\tinystr.h
+     1>c:\users\quant\desktop\ctp_mfc\project\piquant\tool\configreader.cpp(100): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\quant\desktop\ctp_mfc\project\piquant\tool\configreader.cpp(106): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\quant\desktop\ctp_mfc\project\piquant\tool\configreader.cpp(122): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\quant\desktop\ctp_mfc\project\piquant\tool\configreader.cpp(128): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\quant\desktop\ctp_mfc\project\piquant\tool\configreader.cpp(153): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\quant\desktop\ctp_mfc\project\piquant\tool\configreader.cpp(213): warning C4172: returning address of local variable or temporary
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D TOOL_EXPORTS /D _AFXDLL /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /showIncludes /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         Note: including file: c:\users\quant\desktop\ctp_mfc\project\piquant\tool\stdafx.h
+         Note: including file:  c:\users\quant\desktop\ctp_mfc\project\piquant\tool\targetver.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\SDKDDKVer.h
+         Note: including file:  C:\Program Files (x86)\Windows Kits\8.1\Include\um\windows.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winapifamily.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\excpt.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sal.h
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ConcurrencySal.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vadefs.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdarg.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings_strict.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings_undef.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\driverspecs.h
+         Note: including file:       c:\program files (x86)\windows kits\8.1\include\shared\sdv_driverspecs.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ctype.h
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\kernelspecs.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\basetsd.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\guiddef.h
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:      c:\program files (x86)\windows kits\8.1\include\shared\pshpack4.h
+         Note: including file:      c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Note: including file:      c:\program files (x86)\windows kits\8.1\include\shared\pshpack4.h
+         Note: including file:      c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack4.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:      c:\program files (x86)\windows kits\8.1\include\shared\pshpack4.h
+         Note: including file:      c:\program files (x86)\windows kits\8.1\include\shared\pshpack2.h
+         Note: including file:      c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Note: including file:      c:\program files (x86)\windows kits\8.1\include\shared\pshpack2.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:      c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Note: including file:      c:\program files (x86)\windows kits\8.1\include\shared\pshpack8.h
+         Note: including file:      c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Note: including file:      c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\apiset.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ktmtypes.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\apisetcconv.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\processenv.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\fileapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\debugapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\utilapiset.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\handleapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\errhandlingapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\fibersapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\namedpipeapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\profileapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\heapapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\ioapiset.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\synchapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\interlockedapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\memoryapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\threadpoollegacyapiset.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\threadpoolapiset.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\bemapiset.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\jobapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\wow64apiset.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\libloaderapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\securitybaseapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\namespaceapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\systemtopologyapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\processtopologyapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\securityappcontainer.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\realtimeapiset.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\timezoneapi.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack4.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack4.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\tvout.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnls.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\datetimeapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\stringapiset.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnls.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\wincon.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\consoleapi.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\winver.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\verrsrc.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\winreg.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\reason.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnetwk.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wnnc.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\stralign.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\mcx.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\imm.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\ime_cmodes.h
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Quant\Desktop\CTP_MFC\Project\Piquant\Debug\Tool.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Quant\Desktop\CTP_MFC\Project\Piquant\Debug\Tool.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Quant\Desktop\CTP_MFC\Project\Piquant\Debug\Tool.lib" /MACHINE:X86 /DLL Debug\ConfigReader.obj
+         Debug\dllmain.obj
+         Debug\IniFile.obj
+         Debug\rwJson.obj
+         Debug\stdafx.obj
+         Debug\tinystr.obj
+         Debug\tinyxml.obj
+         Debug\tinyxmlerror.obj
+         Debug\tinyxmlparser.obj
+         Debug\Tool.obj
+         json_vc71_libmtd.lib
+            Creating library C:\Users\Quant\Desktop\CTP_MFC\Project\Piquant\Debug\Tool.lib and object C:\Users\Quant\Desktop\CTP_MFC\Project\Piquant\Debug\Tool.exp
+         Tool.vcxproj -> C:\Users\Quant\Desktop\CTP_MFC\Project\Piquant\Debug\Tool.dll
+     1>Done Building Project "C:\Users\Quant\Desktop\CTP_MFC\Project\Piquant\Tool\Tool.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.36
