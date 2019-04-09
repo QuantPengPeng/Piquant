@@ -3,7 +3,8 @@ Piquant-Quantitative Toolbox(CTP)
 
   圆周率Pi(3.14159......)是个颇有意义的数学符号，给整个项目定名为Piquant，不仅怀揣着对超越无限可能的憧憬，更希望在前行的路上，无论荆棘坎坷还是飘摇风雨，也不忘心之热忱，愿之真挚。  
 
-![image](https://github.com/QuantPengPeng/Piquant/blob/master/Piquant_image.png)
+![image](https://github.com/QuantPengPeng/Piquant/blob/master/Piquant_image.png)  
+
 【1】分层架构，基于多线程间异步通讯建立事件驱动的本地消息机制  
 
 【2】实现时间轮询、被动连询、主动查询的任务优先级调度  
@@ -35,4 +36,10 @@ Piquant-Quantitative Toolbox(CTP)
 【15】对策略dll、日志txt、脚本py、可执行程序exe的功能整合  
 
 【16】开放策略接口(dll)并动态展示运行状态及消息  
+
+注意事项：  
+1.请重新编译libcurl、jsoncpp库等  
+
+2.不同机器下运行软件，请根据windows版本32位/64位打以下补丁：mfc120ud.dll、msvcp120d.dll、msvcr120d.dll  
+
 
