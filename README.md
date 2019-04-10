@@ -41,5 +41,6 @@ Piquant-Quantitative Toolbox(CTP)
 1.请重新编译libcurl、jsoncpp库等  
 
 2.不同机器下运行软件，请根据windows版本32位/64位打以下补丁：mfc120ud.dll、msvcp120d.dll、msvcr120d.dll  
+(无论是32位还是64位机，上述补丁都需下载32位版本，分别复制到System32或SysWow64文件夹中)
 
 
